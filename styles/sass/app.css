@@ -1,0 +1,29 @@
+@import url("https://blokkfont-losgordos.netdna-ssl.com/v2/blokkfont.css");
+/* plugins and third party styles */
+/* BASE STYLES */
+/* GLOBAL STYLES - COMMON.SASS */
+* {
+  box-sizing: border-box; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+html, body {
+  overflow-x: hidden; }
+
+html {
+  overflow-y: overlay;
+  height: 100%; }
+
+body {
+  color: #282222; }
+
+.wrapper {
+  width: 2480px;
+  max-width: 85%;
+  margin: 0 auto; }
+
+/* BUTTONS.SASS - BUTTON STYLES */
+/* SPECIAL CLASSES - CLASSES.SASS */
+/* HEADER STYLES - HEADER.SASS */
+/* FOOTER STYLES - FOOTER.SASS */
