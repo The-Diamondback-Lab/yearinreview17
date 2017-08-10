@@ -98,12 +98,11 @@ typings/
 
 
 ### Sass ###
-/sass
 .sass-cache/
 *.css.map
 
 
 ### extra ###
-/mockup
+mockup/
 
 # End of https://www.gitignore.io/api/sass,node,adobe,macos
