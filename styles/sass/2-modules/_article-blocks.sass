@@ -1,0 +1,47 @@
+/* ARTICLE BLOCKS - ARTICLE BLOCKS.SASS */
+
+.article-block
+  +bkg2(center, center)
+  border-radius: .5em
+  display: inline-block
+  margin: 0 0 1em
+  width: 100%
+  box-sizing: border-box
+  padding: 1em
+  
+  .text
+    border-radius: .5em
+    background-color: rgba($black, .65)
+    padding: .5em .75em
+    margin: 0 0 1em 0
+    
+    #headline
+      text-transform: capitalize
+      margin: 0
+      font-size: 1.1em
+
+    #blurb
+      margin: .5em 0 .75em 0
+      font-size: .87em
+      line-height: 1.25em
+
+  .btn-wrapper
+    width: 100%
+
+    a
+      float: right
+
+.news
+  //background-color: $accent
+          
+  h3, p
+    color: $white
+    
+.sports, .diversions
+  background-color: $white
+  
+  h3
+    color: $black
+            
+  p
+    color: $darkgray
