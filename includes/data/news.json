@@ -92,6 +92,40 @@
       "link": "http://www.dbknews.com/2016/10/26/sga-withdraw-title-ix-fee-proposal/",
       "img": "background-image: url(../../assets/img/articles/2-oct/11-Oct16.jpg);"
     }
+  ],
+  "november16": [
+    {
+      "headline": "Podcast: Life on campus after Trump's election win",
+      "section": "diversions",
+      "type": "politics",
+      "description": "The morning after Donald Trump was elected president, emotions swirled as the campus reacted to the news some had hoped for and others had feared. Students gathered in front of McKeldin Mall the night after Trump’s victory to protest his attitude toward minorities. In the crowd, one of our writers realized that his fears went beyond just what it meant for him as a member of the LGBTQ community. And throughout campus, feminists of all genders shuddered recalling Trump’s comments about sexually assaulting woman. On a primarily liberal campus, many were shaken by the news, with some professors canceling tests, while others saw Trump's victory as a move in the right direction.",
+      "link": "http://www.dbknews.com/2016/11/11/trump-reaction-podcast/",
+      "img": "background-image: url(../../assets/img/articles/3-nov/11-Nov16.jpg);"
+    },
+    {
+      "headline": "UMD community speaks out against sexual assault and Donald Trump's \"victim-blaming culture\"",
+      "section": "news",
+      "type": "ix activism",
+      "description": "Days after President Trump’s victory over Hillary Clinton in the 2016 election, students gathered on McKeldin Mall for a rally speaking out against sexual assault, ending the event with a sit-in protest inside the Main Administration Building. Speakers highlighted Trump’s derogatory rhetoric toward women and the sexual assault accusations against him. They marched to the administration building and posted hand-written notes on the door leading to the administrative offices demanding more funding for sexual violence prevention programming and the Title IX office, as well as a harsher condemnation of Trump.",
+      "link": "http://www.dbknews.com/2016/11/12/umd-rally-love-trumps-hate-donald-trump-sexual-assault/",
+      "img": "background-image: url(../../assets/img/articles/3-nov/12-Nov16.jpg);"
+    },
+    {
+      "headline": "Two Maryland football freshman charged with assault for BB gun incident",
+      "section": "sports",
+      "type": "football",
+      "description": "Maryland football wide receiver DJ Turner and running back Lorenzo Harrison were charged with three accounts of second-degree assault and reckless endangerment for their involvement in an on-campus BB gun incident. Pellets struck three Maryland students during the incident, which occurred Nov. 6.",
+      "link": "http://www.dbknews.com/2016/11/16/maryland-football-lorenzo-harrison-dj-turner-assault-bb-gun-incident/",
+      "img": "background-image: url(../../assets/img/articles/3-nov/13-Nov16.jpg);"
+    },
+    {
+      "headline": "The Hotel at UMD is set to create about 500 jobs [The Hotel at UMD is set to open next summer and create about 500 jobs]",
+      "section": "news",
+      "type": "development city",
+      "description": "The Hotel at the University of Maryland is officially set to open in July with reservations starting in August. It comes four new restaurants as well as a Red Door Spa. Two of these restaurants, Old Maryland Grill and Kapnos Taverna, are expected to have an upscale dining ambiance that many believe College Park currently lacks. The Hotel will bring about 500 jobs for staff and other personnel, not including those provided by and the restaurants and spa.",
+      "link": "http://www.dbknews.com/2016/11/14/the-hotel-university-of-maryland-jobs/",
+      "img": "background-image: url(../../assets/img/articles/3-nov/14-Nov16.jpg);"
+    }
   ]
   
 }
