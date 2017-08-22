@@ -34,7 +34,7 @@ var oct16 = [
   {section: 'news', type: 'state', link: 'http://www.dbknews.com/2016/10/01/university-of-maryland-college-park-baltimore-partnership/', img: 'assets/img/articles/2-oct/05-Oct16.jpg'}, 
   {section: 'news', type: 'crime', link: 'http://www.dbknews.com/2016/10/06/umd-gun-route-1-college-park/', img: 'assets/img/articles/2-oct/06-Oct16.jpg'},
   {section: 'news', type: 'ix', link: 'http://www.dbknews.com/2016/10/07/umd-sexual-assault-expelled-students/', img: 'assets/img/articles/2-oct/7-Oct16.jpg'}, 
-  {section: 'news', type: 'ix', link: 'http://www.dbknews.com/2016/10/12/university-of-maryland-title-ix-fee-buzzfeed/', img: 'assets/img/articles/2-oct/'}, //NO IMG
+  {section: 'news', type: 'ix', link: 'http://www.dbknews.com/2016/10/12/university-of-maryland-title-ix-fee-buzzfeed/', img: 'assets/img/articles/2-oct/8-Oct16.jpg'}, //NO IMG
   {section: 'sports', type: 'football', link: 'http://www.dbknews.com/2016/10/21/will-likely-maryland-football-torn-acl/', img: 'assets/img/articles/2-oct/8-Oct16.jpg'},
   {section: 'news', type: 'news', link: 'http://www.dbknews.com/2016/10/26/milo-yiannopoulos-terps-for-trump-canceled-event/', img: 'assets/img/articles/2-oct/9-Oct16.jpg'},
   {section: 'news', type: 'ix', link: 'http://www.dbknews.com/2016/10/26/sga-withdraw-title-ix-fee-proposal/', img: 'assets/img/articles/'} //NO IMG
@@ -133,7 +133,7 @@ function articleBlocks(array, id) {
 }
   
 //articleBlocks(aug16);
-articleBlocks(sep16);
+//articleBlocks(sep16);
   
   
   

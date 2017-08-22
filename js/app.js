@@ -7,7 +7,7 @@ review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
 
 
   function loadData(){
-    $http.get('includes/data/articles.json').
+    $http.get('includes/data/news.json').
         success(function(data, status, headers, config) {
           $scope.articles = data;
         }).error(function(data, status, headers, config) {
