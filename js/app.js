@@ -1,4 +1,4 @@
-var review_app = angular.module("review-app", ["ui.router"]);
+var review_app = angular.module("review-app", []);
 
 review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
 
