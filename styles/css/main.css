@@ -17,10 +17,11 @@ h1, h2, h3, h4, h5, h6 { font-family: "Playfair Display", serif; }
 
 p, a { font-family: "Lora", serif; }
 
+a { text-decoration: none; }
 a:hover { font-weight: 700; cursor: pointer; }
 
 /* BUTTONS.SASS - BUTTON STYLES */
-.btn, .btn-red, .btn-white, .btn-dark { padding: 0.75em 1.5em; margin: 0; border-radius: 0.5em; text-decoration: none; text-transform: uppercase; font-size: 0.9em; text-align: center; }
+.btn, .btn-red, .btn-white, .btn-dark { padding: 0.75em 1.5em; margin: 0; text-decoration: none; text-transform: uppercase; font-size: 0.9em; text-align: center; }
 
 .btn-red { background-color: #b62424; color: #fff; }
 
@@ -29,19 +30,18 @@ a:hover { font-weight: 700; cursor: pointer; }
 .btn-dark { background-color: #333333; color: #fff; }
 
 /* SPECIAL CLASSES - CLASSES.SASS */
-/* TOP-NAV.SASS - TOP NAV STYLES */
-#top-nav { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100vw; background-color: #b62424; padding: 2em 0; width: 100%; }
-#top-nav p, #top-nav a { text-transform: uppercase; }
-#top-nav p { color: #fff; margin: 0 0 0.25em 0; }
-#top-nav .dates2016, #top-nav .dates2017 { display: flex; flex-direction: row; align-items: center; justify-content: center; width: 60%; }
-#top-nav .dates2016 { margin: 0.25em 0 0.25em 0; }
-#top-nav .dates2017 { margin: 0.25em 0 0 0; }
-#top-nav a { font-size: 0.9em; color: #d9d9d9; margin: 0 0.3em; }
+/* NAV.SASS - NAV STYLES */
+nav { display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100vw; background-color: #b62424; padding: 2em 0; width: 100%; }
+nav p, nav a { text-transform: uppercase; }
+nav p { color: #fff; margin: 0 0 0.25em 0; }
+nav .dates2016, nav .dates2017 { display: flex; flex-direction: row; align-items: center; justify-content: center; width: 60%; }
+nav .dates2016 { margin: 0.25em 0 0.25em 0; }
+nav .dates2017 { margin: 0.25em 0 0 0; }
+nav a { font-size: 0.9em; color: #d9d9d9; margin: 0 0.3em; }
 
-/* FOOTER STYLES - FOOTER.SASS */
 /* ARTICLE BLOCKS - ARTICLE BLOCKS.SASS */
-.article-block { background-size: cover; background-repeat: no-repeat; background-position: center center; border-radius: 0.5em; display: inline-block; margin: 0 0 1em; width: 100%; box-sizing: border-box; padding: 1em; }
-.article-block .text { border-radius: 0.5em; background-color: rgba(40, 34, 34, 0.65); padding: 0.5em 0.75em; margin: 0 0 1em 0; }
+.article-block { background-size: cover; background-repeat: no-repeat; background-position: center center; display: inline-block; margin: 0 0 1em; width: 100%; box-sizing: border-box; padding: 1.25em 1em; }
+.article-block .text { background-color: rgba(40, 34, 34, 0.65); padding: 0.75em; margin: 0 0 1em 0; }
 .article-block .text .headline, .article-block .text .blurb { color: #fff; }
 .article-block .text .headline { text-transform: capitalize; margin: 0; font-size: 1.1em; }
 .article-block .text .blurb { margin: 0.5em 0 0.75em 0; font-size: 0.87em; line-height: 1.25em; }
@@ -57,6 +57,7 @@ a:hover { font-weight: 700; cursor: pointer; }
 #timeline .wrapper .month-block .month-block-header .monthYear { color: #282222; font-size: 1.5em; margin: 0 0.25em 0 0; }
 #timeline .wrapper .month-block .month-block-header .numArticles { color: #b62424; margin: 0 0 0 0.25em; }
 #timeline .wrapper .month-block .articles-wrapper { width: 100%; -moz-column-count: 3; -webkit-column-count: 3; column-count: 3; -moz-column-gap: 1.5em; -webkit-column-gap: 1.5em; column-gap: 1.5em; padding: 0; }
+#timeline .wrapper .month-block .articles-wrapper:last-child { float: left !important; }
 
 /* INDEX.SASS - INDEX PAGE STYLES */
 /* SPLASH */
