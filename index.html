@@ -43,6 +43,97 @@
 
 <body ng-controller="main-ctlr">
 
+   <!--header-->
+   <header>
+     <div class="wrapper">
+      
+       <div class="icons">
+        <i class="fa fa-search" id="search-btn"></i>
+        <i class="fa fa-bars" id="bars"></i>
+       </div>
+       
+       <input type="text" id="search" placeholder="search">
+       
+       <main id="header-main">
+        <nav id="jumptodate">
+          <p>jump to date</p>
+          <div class="dates">
+              <a href="#august16" class="aug16-link date-link">august 2016</a>
+              <a href="#september16" class="sep16-link date-link">september 2016</a>
+              <a href="#october16" class="oct16-link date-link">october 2016</a>
+              <a href="#november16" class="nov16-link date-link"> november 2016</a>
+              <a href="#december16" class="dec16-link date-link">december 2016</a>
+              <br />
+              <a href="#january17" class="jan17-link date-link">january 2017</a>
+              <a href="#february17" class="feb17-link date-link">february 2017</a>
+              <a href="#march17" class="mar17-link date-link">march 2017</a>
+              <a href="#april17" class="apr17-link date-link"> april 2017</a>
+              <a href="#may17" class="may17-link date-link">may 2017</a>
+              <a href="#june17" class="jun17-link date-link">june 2017</a>
+              <a href="#july17" class="jul17-link date-link">july 2017</a>
+              <a href="#august17" class="aug17-link date-link">august 2017</a>
+          </div>
+        </nav>
+        
+        <nav id="filterbydate">
+          <p>filter by date</p>
+          <div class="dates">
+              <a id="filterdate-btn" class="btn-all">all</a>
+              <a class="datefilter-link">august 2016</a>
+              <a class="datefilter-link">september 2016</a>
+              <a class="datefilter-link">october 2016</a>
+              <a class="datefilter-link"> november 2016</a>
+              <a class="datefilter-link">december 2016</a>
+              <br />
+              <a class="datefilter-link">january 2017</a>
+              <a class="datefilter-link">february 2017</a>
+              <a class="datefilter-link">march 2017</a>
+              <a class="datefilter-link"> april 2017</a>
+              <a class="datefilter-link">may 2017</a>
+              <a class="datefilter-link">june 2017</a>
+              <a class="datefilter-link">july 2017</a>
+              <a class="datefilter-link">august 2017</a>
+          </div>
+        </nav>
+        
+        <nav id="filterbycat">
+          <p>filter by category</p>
+          <div class="categories">
+            <a id="filtercat-btn" class="btn-all">all</a>
+            <a id="activism" class="cat-link">activism</a>
+            <a id="admin" class="cat-link">administration</a>
+            <a id="baseball" class="cat-link">baseball</a>
+            <a id="city" class="cat-link">city</a>
+            <a id="crime" class="cat-link">crime</a>
+            <a id="development" class="cat-link">development</a>
+            <a id="diversions" class="cat-link">diversions</a>
+            <a id="football" class="cat-link">football</a>
+            <a id="humor" class="cat-link">humor</a>
+            <a id="legal" class="cat-link">legal</a>
+            <br />
+            <a id="m-bball" class="cat-link">men's basketball</a>
+            <a id="m-lax" class="cat-link">men's lacrosse</a>
+            <a id="music" class="cat-link">music</a>
+            <a id="news" class="cat-link">news</a>
+            <a id="politics" class="cat-link">politics</a>
+            <a id="sports" class="cat-link">sports</a>
+            <a id="ix" class="cat-link">title IX</a>
+            <a id="tv" class="cat-link">TV</a>
+            <a id="w-bball" class="cat-link">women's basketball</a>
+            <a id="w-lax" class="cat-link">women's lacrosse</a> 
+          </div>
+        </nav>   
+       </main>
+       
+       <a id="close-btn">close menu</a>
+     </div>
+   </header>
+   
+   
+   
+   
+   
+   
     <!--splash section-->
     <section id="splash">
         <div class="wrapper">
@@ -55,44 +146,28 @@
 
             <p class="scroll-animation">
                 <span>scroll</span>
-                <i class="fa fa-angle-double-down" id="doubledown"></i>
+                <i class="fa fa-angle-double-down animated infinite pulse" id="doubledown"></i>
                 <span>down</span>
             </p>
 
         </div>
     </section>
-
-    <!--top navigation-->
-    <nav id="top-nav">
-        <p>jump to date</p>
-        <div class="dates2016">
-            <a href="#august16" class="aug16-link date-link">august 2016</a>
-            <a href="#september16" class="sep16-link date-link">september 2016</a>
-            <a href="#october16" class="oct16-link date-link">october 2016</a>
-            <a href="#november16" class="nov16-link date-link"> november 2016</a>
-            <a href="#december16" class="dec16-link date-link">december 2016</a>
-        </div>
-        <div class="dates2017">
-            <a href="#january2017" class="jan17-link date-link">january 2017</a>
-            <a href="#february2017" class="feb17-link date-link">february 2017</a>
-            <a href="#march2017" class="mar17-link date-link">march 2017</a>
-            <a href="#april2017" class="apr17-link date-link"> april 2017</a>
-            <a href="#may2017" class="may17-link date-link">may 2017</a>
-            <a href="#june2017" class="jun17-link date-link">june 2017</a>
-            <a href="#july2017" class="jul17-link date-link">july 2017</a>
-            <a href="#august2017" class="aug17-link date-link">august 2017</a>
-        </div>
-    </nav>
-
-    <!--timeline side nav-->
-    <nav id="side-nav"></nav>
-
+   
+        
     <!--timeline-->
     <section id="timeline">
        <div class="wrapper">
+        
          <month ng-repeat = "month in months" month-id = "month.id" month-name = "month.name" articles = "articles"></month>
-       </div>
+        
+      </div>
     </section>
+    
+    
+    <!--scroll to top button-->
+    <a id="top" class="btn-red">
+      <i class="fa fa-arrow-up"></i>
+    </a>
 
 <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.13'><\/script>".replace("HOST", location.hostname));
