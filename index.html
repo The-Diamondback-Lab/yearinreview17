@@ -74,7 +74,7 @@
               <a href="#august17" class="aug17-link date-link">august 2017</a>
           </div>
         </nav>
-        
+        <!--
         <nav id="filterbydate">
           <p>filter by date</p>
           <div class="dates">
@@ -95,32 +95,32 @@
               <a class="datefilter-link">august 2017</a>
           </div>
         </nav>
-        
+        -->
         <nav id="filterbycat">
           <p>filter by category</p>
           <div class="categories">
-            <a id="filtercat-btn" class="btn-all">all</a>
-            <a id="activism" class="cat-link">activism</a>
-            <a id="admin" class="cat-link">administration</a>
-            <a id="baseball" class="cat-link">baseball</a>
-            <a id="city" class="cat-link">city</a>
-            <a id="crime" class="cat-link">crime</a>
-            <a id="development" class="cat-link">development</a>
-            <a id="diversions" class="cat-link">diversions</a>
-            <a id="football" class="cat-link">football</a>
-            <a id="humor" class="cat-link">humor</a>
-            <a id="legal" class="cat-link">legal</a>
+            <a id="filtercat-btn" class="btn-all" ng-click="filterCategory('all')">all</a>
+            <a id="activism" class="cat-link" ng-click="filterCategory('activism')">activism</a>
+            <a id="admin" class="cat-link" ng-click="filterCategory('administration')">administration</a>
+            <a id="baseball" class="cat-link" ng-click="filterCategory('baseball')">baseball</a>
+            <a id="city" class="cat-link"ng-click="filterCategory('city')">city</a>
+            <a id="crime" class="cat-link" ng-click="filterCategory('crime')">crime</a>
+            <a id="development" class="cat-link" ng-click="filterCategory('development')">development</a>
+            <a id="diversions" class="cat-link" ng-click="filterCategory('diversions')">diversions</a>
+            <a id="football" class="cat-link" ng-click="filterCategory('football')">football</a>
+            <a id="humor" class="cat-link" ng-click="filterCategory('humor')">humor</a>
+            <a id="legal" class="cat-link" ng-click="filterCategory('legal')">legal</a>
             <br />
-            <a id="m-bball" class="cat-link">men's basketball</a>
-            <a id="m-lax" class="cat-link">men's lacrosse</a>
-            <a id="music" class="cat-link">music</a>
-            <a id="news" class="cat-link">news</a>
-            <a id="politics" class="cat-link">politics</a>
-            <a id="sports" class="cat-link">sports</a>
-            <a id="ix" class="cat-link">title IX</a>
-            <a id="tv" class="cat-link">TV</a>
-            <a id="w-bball" class="cat-link">women's basketball</a>
-            <a id="w-lax" class="cat-link">women's lacrosse</a> 
+            <a id="m-bball" class="cat-link" ng-click="filterCategory('m-bball')">men's basketball</a>
+            <a id="m-lax" class="cat-link" ng-click="filterCategory('m-lax')">men's lacrosse</a>
+            <a id="music" class="cat-link" ng-click="filterCategory('music')">music</a>
+            <a id="news" class="cat-link" ng-click="filterCategory('news')">news</a>
+            <a id="politics" class="cat-link" ng-click="filterCategory('politics')">politics</a>
+            <a id="sports" class="cat-link" ng-click="filterCategory('sports')">sports</a>
+            <a id="ix" class="cat-link" ng-click="filterCategory('title IX')">title IX</a>
+            <a id="tv" class="cat-link" ng-click="filterCategory('TV')">TV</a>
+            <a id="w-bball" class="cat-link" ng-click="filterCategory('w-bball')">women's basketball</a>
+            <a id="w-lax" class="cat-link" ng-click="filterCategory('w-lax')">women's lacrosse</a> 
           </div>
         </nav>   
        </main>
