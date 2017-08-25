@@ -1,7 +1,7 @@
 // TIMELINE FUNCTIONS
 
 $(document).ready(function() {
- 
+
 var timeline = [
   {month: "august 2016", id: "august16" },
   {month: "september 2016", id: "september16" },
@@ -19,7 +19,7 @@ var timeline = [
 ];
 
 //scroll to top button
-  
+
 function scrollToTop() {
   if ($(this).scrollTop() > 300) {
     $('#top').fadeIn();
@@ -30,7 +30,7 @@ function scrollToTop() {
 $(window).scroll(function() {
   scrollToTop();
 });
-  
+
 scrollToTop();
 
 $('#top').click(function() {
@@ -39,39 +39,39 @@ $('#top').click(function() {
   }, 800);
   return false;
 });
-  
+
 //header + nav
 //function header() {
 //  if ($(window).scrollTop < 100) {
-//    //$( "header" ).css('background-color', 'transparent'); 
-//    $( "header > .wrapper" ).css('padding', '2.5em 0'); 
+//    //$( "header" ).css('background-color', 'transparent');
+//    $( "header > .wrapper" ).css('padding', '2.5em 0');
 //  } else {
 //    //$( "header" ).css('background-color', '#b62424');
-//    $( "header > .wrapper" ).css('padding', '1.5em 0'); 
+//    $( "header > .wrapper" ).css('padding', '1.5em 0');
 //  }
 //}
 $(window).scroll(function() {
   //header();
 });
-  
+
 function searchBtn() {
   //$( "header" ).css('background-color', '#b62424');
   //$( "header > .wrapper" ).css('padding', '2.5em 0');
   $('#search').fadeIn("100ms");
   $('#close-btn').fadeIn("125ms");
-} 
+}
 $('#search-btn').click(function() {
   searchBtn();
 });
- 
+
 function menuBtn() {
   searchBtn();
   $('header > .wrapper > main').fadeIn("150ms");
-}  
+}
 $('#bars').click(function()  {
   menuBtn();
 });
-  
+
 function closeMenu() {
   //header();
   $('header > .wrapper > main').fadeOut("150ms");
@@ -80,9 +80,20 @@ function closeMenu() {
 }
 $('#close-btn').click(function() {
   closeMenu();
-});   
+});
 $('.date-link').click(function() {
   closeMenu();
+});
+
+var header = document.getElementsByTagName("header")[0];
+
+//I'm using "click" but it works with any event
+document.addEventListener('click', function(event) {
+  var isClickInside = header.contains(event.target);
+
+  if (!isClickInside) {
+    closeMenu();
+  }
 });
 
 });

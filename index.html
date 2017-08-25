@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
-    
+
     <script src="https://use.fontawesome.com/c6d3fe14c1.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
@@ -46,14 +46,14 @@
    <!--header-->
    <header>
      <div class="wrapper">
-      
+
        <div class="icons">
         <i class="fa fa-search" id="search-btn"></i>
         <i class="fa fa-bars" id="bars"></i>
        </div>
-       
-       <input type="text" id="search" placeholder="search" ng-change="search()" ng-model="term">
-       
+
+       <input type="text" id="search" placeholder="search for an article" ng-change="search()" ng-model="term">
+
        <main id="header-main">
         <nav id="jumptodate">
           <p>jump to date</p>
@@ -120,20 +120,20 @@
             <a id="ix" class="cat-link" ng-click="filterCategory('ix')">title IX</a>
             <a id="tv" class="cat-link" ng-click="filterCategory('tv')">TV</a>
             <a id="w-bball" class="cat-link" ng-click="filterCategory('w-bball')">women's basketball</a>
-            <a id="w-lax" class="cat-link" ng-click="filterCategory('w-lax')">women's lacrosse</a> 
+            <a id="w-lax" class="cat-link" ng-click="filterCategory('w-lax')">women's lacrosse</a>
           </div>
-        </nav>   
+        </nav>
        </main>
-       
+
        <a id="close-btn">close menu</a>
      </div>
    </header>
-   
-   
-   
-   
-   
-   
+
+
+
+
+
+
     <!--splash section-->
     <section id="splash">
         <div class="wrapper">
@@ -152,28 +152,28 @@
 
         </div>
     </section>
-   
-        
+
+
     <!--timeline-->
     <section id="timeline">
        <div class="wrapper">
-        
+
          <month ng-repeat = "month in months" month-id = "month.id" month-name = "month.name" articles = "articles"></month>
-        
+
       </div>
     </section>
-    
+
     <!---footer-->
     <footer>
       <div class="wrapper">
-        <p>&copy; 2017  
+        <p>&copy; 2017
           <a target="_blank" href="http://www.dbknews.com/">The Diamondback</a>
         </p>
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <div id="addthis" class="addthis_inline_follow_toolbox"></div>
       </div>
     </footer>
-    
+
     <!--scroll to top button-->
     <a id="top" class="btn-red">
       <i class="fa fa-arrow-up"></i>
@@ -186,8 +186,8 @@
       //]]>
     </script>
 
-    <!-- Go to www.addthis.com/dashboard to customize your tools --> 
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-599e1f8aa9cc5b6e"></script> 
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-599e1f8aa9cc5b6e"></script>
 </body>
 
 </html>
