@@ -6,10 +6,10 @@
       "type": "crime",
       "description": "University of Maryland Police incorrectly deployed pepper spray at a graduation party of predominantly black students, prompting outrage on social media and the two-week suspension of an officer. A five-week internal investigation did not discover evidence the incident was racially motivated, but some students disagreed. This incident occurred one week after Philando Castile and Alton Sterling, two black men, died at the hands of police officers. Read about UMPD’s investigation and watch body camera footage in The Diamondback’s coverage.",
       "link": "http://features.dbknews.com/2016/07/16/university-of-maryland-police-umpd-pepper-spray-investigation-results/",
-      "img": "background-image: url(../../assets/img/articles/0-aug/1-Aug16.jpg);"
+      "img": "assets/img/articles/01_img_Article01-Aug16.jpg"
     }
   ],
-  
+
   "september16": [
     {
       "headline": "University of Maryland will decrease parking spaces and increase fees by fall 2018",
@@ -17,7 +17,7 @@
       "type": "development",
       "description": "DOTS Director David Allen announced plans to eliminate nearly 3,000 parking spaces by fall 2018 due to ongoing construction projects. He said DOTS will also restrict freshmen and sophomores from parking on campus starting fall 2017, with some exceptions. Students who wish to park on campus will also face a nearly 20 percent fee increase.",
       "link": "http://www.dbknews.com/2016/09/08/umd-campus-parking-elimination-fees/",
-      "img": "background-image: url(../../assets/img/articles/1-sep/2-Sept16.jpg);"
+      "img": "background-image: url(assets/img/articles/02_img_Article01-Sept16.jpg);"
     },
     {
       "headline": "The SGA wants to add a mandatory student fee to fund UMD's Title IX office",
@@ -25,7 +25,7 @@
       "type": "politics",
       "description": "Under the leadership of current Student Government Association President A.J. Pruitt, who was the student affairs vice president at the time, the SGA proposed a plan to charge all undergraduate and graduate students a mandatory fee that would help support this university’s underfunded Office of Civil Rights and Sexual Misconduct. The SGA ultimately withdrew the proposal in October but pledged to continue advocating and raising funds for the office.",
       "link": "http://www.dbknews.com/2016/09/21/sga-sexual-misconduct-title-ix-fee/",
-      "img": "background-image: url(../../assets/img/articles/1-sep/3-Sept16.jpg);"
+      "img": "background-image: url(assets/img/articles/03_img_Article02_Sept16.jpg);"
     },
     {
       "headline": "\"An unspeakable tragedy\": A murder-suicide stuns College Park",
@@ -33,10 +33,10 @@
       "type": "crime",
       "description": "Farhad Siddique, a junior at this university, was found dead in a parking lot near Parkside apartments. Police and investigators believe he was shot and killed by his father, who then shot and killed himself.",
       "link": "http://features.dbknews.com/2016/09/29/an-unspeakable-tragedy-a-murder-suicide-stuns-college-park/",
-      "img": "background-image: url(../../assets/img/articles/1-sep/4-Sept16.jpg);"
+      "img": "background-image: url(assets/img/articles/04_img_Article03_Sept16.jpg);"
     }
   ],
-  
+
   "october16": [
     {
       "headline": "Strategic partnership between UMD, University of Maryland, Baltimore takes effect today",
@@ -44,7 +44,7 @@
       "type": "state",
       "description": "Hoping to strengthen the University System of Maryland, the strategic partnership of this university and the University of Maryland, Baltimore formally went into effect. The move provides opportunities to increase funding initiatives on both campuses and makes it easier for students to transition between some academic programs on both campuses.",
       "link": "http://www.dbknews.com/2016/10/01/university-of-maryland-college-park-baltimore-partnership/",
-      "img": "background-image: url(../../assets/img/articles/2-oct/05-Oct16.jpg);"
+      "img": "background-image: url(assets/img/articles/55_img_Article06_Oct16.jpg);"
     },
     {
       "headline": "Report of armed man was a false alarm",
@@ -52,7 +52,7 @@
       "type": "crime",
       "description": "A UMD alert warned of a possible gunman carrying what appeared to be an AR-15 walking around near Ritchie Coliseum and instructed everyone to avoid the area. The police ultimately found that the individual belonged to the ROTC program and carried a rubber rifle. UMPD pledged to work with military commanders to ensure an incident like this would never happen again. The university currently follows the ‘Run, Hide, Fight’ emergency procedure in the event of an active shooter.",
       "link": "http://www.dbknews.com/2016/10/06/umd-gun-route-1-college-park/",
-      "img": "background-image: url(../../assets/img/articles/2-oct/6-Oct16.jpg);"
+      "img": "background-image: url(assets/img/articles/05_img_Article01_Oct16.jpg);"
     },
     {
       "headline": "UMD expelled a record four students for sexual assault last year",
@@ -60,7 +60,7 @@
       "type": "ix",
       "description": "For the second year in a row, this university expelled a record number of students for sexual assault. In the 2015-16 school year, this university expelled four students, the most for one year in its history, after expelling three the year before. At a University Senate meeting, Title IX Officer Catherine Carroll said the office was overwhelmed with reports and did not possess sufficient infrastructure to handle the complaints in a time-sensitive manner. She addressed the need for more funding.",
       "link": "http://www.dbknews.com/2016/10/07/umd-sexual-assault-expelled-students/",
-      "img": "background-image: url(../../assets/img/articles/2-oct/7-Oct16.jpg);"
+      "img": "background-image: url(../../assets/img/articles/06_img_Article02_Oct16.jpg);"
     },
     {
       "headline": "Buzzfeed wrote about a UMD Title IX fee proposal, but the story is a little misleading",
@@ -68,7 +68,7 @@
       "type": "ix",
       "description": "The SGA’s mandatory fee proposal received national attention when Buzzfeed incorrectly covered it. Their headline read ‘University of Maryland Passes Title IX Costs On To Students,’ even though President Loh’s cabinet had not yet approved the proposal.",
       "link": "http://www.dbknews.com/2016/10/12/university-of-maryland-title-ix-fee-buzzfeed/",
-      "img": "background-image: url(../../assets/img/articles/2-oct/8-Oct16.jpg);"
+      "img": "background-image: url(assets/img/articles/07_img_Article03_Oct16.jpg);"
     },
     {
       "headline": "Maryland football's Will Likely suffered a torn ACL and will miss the rest of the season",
@@ -76,7 +76,7 @@
       "type": "football",
       "description": "Days after Maryland football cornerback Will Likely suffered an injury in the Terps’ loss to Minnesota, the team announced he was diagnosed with a torn right ACL and would be sidelined for the remainder of his senior season. At the time of the injury, Likely led the Terps with three pass breakups and three passes defended.",
       "link": "http://www.dbknews.com/2016/10/21/will-likely-maryland-football-torn-acl/",
-      "img": "background-image: url(../../assets/img/articles/2-oct/9-Oct16.jpg);"
+      "img": "background-image: url(assets/img/articles/08_img_Article04_Oct16.jpg);"
     },
     {
       "headline": "Terps for Trump cancel Milo Yiannopuolos event",
@@ -84,7 +84,7 @@
       "type": "news",
       "description": "After booking former Breitbart editor and media personality Milo Yiannopoulos to speak on campus as part of his 'Dangerous Faggot' tour, Terps for Trump canceled the event due to the high cost of security required by the university. Campus officials cited violence, protests and bomb threats that have broken out at other institutions where he has spoken to justify the extra costs of securing the show. (additional link applicable: Milo later weighed in on the cancelation and said the UMD community would 'suffer for it,' reasoning that student rights had been violated by the administration's imposition of higher security costs for him to appear.",
       "link": "http://www.dbknews.com/2016/10/26/milo-yiannopoulos-terps-for-trump-canceled-event/",
-      "img": "background-image: url(../../assets/img/articles/2-oct/10-Oct16.jpg);"
+      "img": "background-image: url(assets/img/articles/09_img_Article05_Oct16.jpg);"
     },
     {
       "headline": "SGA withdraws mandatory Title IX fee proposal",
@@ -92,10 +92,10 @@
       "type": "ix",
       "description": "After a meeting between university administration officials and SGA leadership, the SGA voted to withdraw the $34 mandatory fee proposal that would help fund the Office of Civil Rights and Sexual Misconduct. A week earlier, the university announced it would add six more positions across two offices — Title IX and CARE to Stop Violence — to help combat sexual misconduct on the campus.",
       "link": "http://www.dbknews.com/2016/10/26/sga-withdraw-title-ix-fee-proposal/",
-      "img": "background-image: url(../../assets/img/articles/2-oct/11-Oct16.jpg);"
+      "img": "background-image: url(assets/img/articles/10_img_Article06_Oct16.jpg);"
     }
   ],
-  
+
   "november16": [
     {
       "headline": "Podcast: Life on campus after Trump's election win",
@@ -103,7 +103,7 @@
       "type": "politics",
       "description": "The morning after Donald Trump was elected president, emotions swirled as the campus reacted to the news some had hoped for and others had feared. Students gathered in front of McKeldin Mall the night after Trump’s victory to protest his attitude toward minorities. In the crowd, one of our writers realized that his fears went beyond just what it meant for him as a member of the LGBTQ community. And throughout campus, feminists of all genders shuddered recalling Trump’s comments about sexually assaulting woman. On a primarily liberal campus, many were shaken by the news, with some professors canceling tests, while others saw Trump's victory as a move in the right direction.",
       "link": "http://www.dbknews.com/2016/11/11/trump-reaction-podcast/",
-      "img": "background-image: url(../../assets/img/articles/3-nov/11-Nov16.jpg);"
+      "img": "background-image: url(assets/img/articles/3-nov/11-Nov16.jpg);"
     },
     {
       "headline": "UMD community speaks out against sexual assault and Donald Trump's \"victim-blaming culture\"",
@@ -111,7 +111,7 @@
       "type": "ix activism",
       "description": "Days after President Trump’s victory over Hillary Clinton in the 2016 election, students gathered on McKeldin Mall for a rally speaking out against sexual assault, ending the event with a sit-in protest inside the Main Administration Building. Speakers highlighted Trump’s derogatory rhetoric toward women and the sexual assault accusations against him. They marched to the administration building and posted hand-written notes on the door leading to the administrative offices demanding more funding for sexual violence prevention programming and the Title IX office, as well as a harsher condemnation of Trump.",
       "link": "http://www.dbknews.com/2016/11/12/umd-rally-love-trumps-hate-donald-trump-sexual-assault/",
-      "img": "background-image: url(../../assets/img/articles/3-nov/12-Nov16.jpg);"
+      "img": "background-image: url(assets/img/articles/3-nov/12-Nov16.jpg);"
     },
     {
       "headline": "Two Maryland football freshman charged with assault for BB gun incident",
@@ -119,7 +119,7 @@
       "type": "football",
       "description": "Maryland football wide receiver DJ Turner and running back Lorenzo Harrison were charged with three accounts of second-degree assault and reckless endangerment for their involvement in an on-campus BB gun incident. Pellets struck three Maryland students during the incident, which occurred Nov. 6.",
       "link": "http://www.dbknews.com/2016/11/16/maryland-football-lorenzo-harrison-dj-turner-assault-bb-gun-incident/",
-      "img": "background-image: url(../../assets/img/articles/3-nov/13-Nov16.jpg);"
+      "img": "background-image: url(assets/img/articles/3-nov/13-Nov16.jpg);"
     },
     {
       "headline": "The Hotel at UMD is set to create about 500 jobs [The Hotel at UMD is set to open next summer and create about 500 jobs]",
@@ -127,7 +127,7 @@
       "type": "development city",
       "description": "The Hotel at the University of Maryland is officially set to open in July with reservations starting in August. It comes four new restaurants as well as a Red Door Spa. Two of these restaurants, Old Maryland Grill and Kapnos Taverna, are expected to have an upscale dining ambiance that many believe College Park currently lacks. The Hotel will bring about 500 jobs for staff and other personnel, not including those provided by and the restaurants and spa.",
       "link": "http://www.dbknews.com/2016/11/14/the-hotel-university-of-maryland-jobs/",
-      "img": "background-image: url(../../assets/img/articles/3-nov/14-Nov16.jpg);"
+      "img": "background-image: url(assets/img/articles/3-nov/14-Nov16.jpg);"
     },
     {
       "headline": "No. 1 Maryland men's soccer blew a 4-1 lead in the NCAA tournament's second round",
@@ -135,10 +135,10 @@
       "type": "soccer",
       "description": "The Hotel at the University of Maryland is officially set to open in July with reservations starting in August. It comes four new restaurants as well as a Red Door Spa. Two of these restaurants, Old Maryland Grill and Kapnos Taverna, are expected to have an upscale dining ambiance that many believe College Park currently lacks. The Hotel will bring about 500 jobs for staff and other personnel, not including those provided by and the restaurants and spa.",
       "link": "http://www.dbknews.com/2016/11/21/maryland-mens-soccer-providence-ncaa-tournament-score-recap/",
-      "img": "background-image: url(../../assets/img/articles/3-nov/15-Nov16.jpg);"
+      "img": "background-image: url(assets/img/articles/3-nov/15-Nov16.jpg);"
     }
   ],
-  
+
   "december16": [
     {
       "headline": "In defense of marginalized student groups, ProtectUMD coalition sends list of demands to administrators",
@@ -173,7 +173,7 @@
       "img": "background-image: url(../../assets/img/articles/4-dec/19-Dec16.jpg);"
     }
   ],
-  
+
   "january17": [
     {
       "headline": "UMD student retained in airport during temporary travel ban",
@@ -192,7 +192,7 @@
       "img": "background-image: url(../../assets/img/articles/5-jan/21-Jan17.jpg);"
     }
   ],
-  
+
   "february17": [
     {
       "headline": "UMD DOTS is proposing a 600-space parking garage to address shortages",
@@ -219,7 +219,7 @@
       "img": "background-image: url(../../assets/img/articles/6-feb/24-Feb17.jpg);"
     }
   ],
-  
+
   "march17": [
     {
       "headline": "College Park Mayor Patrick Wojahn is running for reelection",
@@ -270,7 +270,7 @@
       "img": "background-image: url(../../assets/img/articles/7-mar/30-Mar17.jpg);"
     }
   ],
-  
+
   "april17": [
     {
       "headline": "Body found near Lake Artemesia identified as former University of Maryland professor",
@@ -345,7 +345,7 @@
       "img": "background-image: url(../../assets/img/articles/8-apr/39-Apr17.jpg);"
     }
   ],
-  
+
   "may17": [
     {
       "headline": "MilkBoy ArtHouse opened Tuesday after more than a year of construction",
@@ -412,7 +412,7 @@
       "img": "background-image: url(../../assets/img/articles/9-may/47-May17.jpg);"
     }
   ],
-  
+
   "june17": [
     {
       "headline": "UMD President Loh announces plans to consider harsher punishments for hate bias incidents",
@@ -447,7 +447,7 @@
       "img": "background-image: url(../../assets/img/articles/10-jun/50-Jun17.jpg);"
     }
   ],
-  
+
   "july17": [
     {
       "headline": "University of Maryland announces its new chief diversity officer",
@@ -466,7 +466,7 @@
       "img": "background-image: url(../../assets/img/articles/11-jul/53-Jul17.jpg);"
     }
   ],
-  
+
   "august17": [
     {
       "headline": "UMD unveils Cole Field House’s newly renovated practice fields",
@@ -477,5 +477,5 @@
       "img": "background-image: url(../../assets/img/articles/12-aug/54-Aug17.jpg);"
     }
   ]
-  
+
 }
