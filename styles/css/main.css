@@ -32,7 +32,8 @@ a:hover { font-weight: 700; cursor: pointer; }
 /* HEADER STYLES - HEADER.SASS */
 header { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; position: fixed; top: 0; width: 100%; z-index: 10; background-color: #b62424; }
 header .wrapper { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 1.5em 0; }
-header .wrapper .icons { display: flex; flex-direction: row; align-items: center; justify-content: flex-end; width: 100vw; width: 100%; }
+header .wrapper .icons { display: flex; flex-direction: row; align-items: flex-end; justify-content: flex-end; width: 100%; }
+header .wrapper .icons #filter-display { font-family: "Lora", serif; color: #fff; margin: 0 1em 0 0; font-size: 1.1em; }
 header .wrapper .icons i { color: rgba(255, 255, 255, 0.2); font-size: 1.5em; margin: 0 0 0 0.25em; }
 header .wrapper .icons i:hover { cursor: pointer; }
 header .wrapper .icons #bars { padding-left: 0.75em; }
