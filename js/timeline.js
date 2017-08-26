@@ -143,4 +143,7 @@ $(document).ready(function() {
         }
 
       });
+
+      $('.btn-all').click(function(event){$("#top").trigger("click");  $("#filter-display").text(function(){return "";}); closeMenu();});
+      $('.cat-link').click(function(event){$("#top").trigger("click"); $("#filter-display").text(function(){return "Filter: "+(event.currentTarget.innerText);}); closeMenu();});
   });
