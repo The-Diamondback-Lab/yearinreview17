@@ -6,8 +6,8 @@ review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
     full_data = [];
     full_months = [];
   loadData();
-
-
+    
+    
 
 
   function loadData(){
@@ -27,7 +27,7 @@ review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
           console.log("Cannot read data from JSON file.")
     });
   }
-
+  
 $scope.filterCategory = function(category) {
     if(category == "all") {
         $scope.articles = full_data;
@@ -45,7 +45,7 @@ $scope.filterCategory = function(category) {
                     new_month_arr.push(curr);
                 }
             }
-
+            
             if(new_month_arr.length > 0) {
                 result[month_keys[i]] = new_month_arr;
                 new_months.push(month_keys[i])
@@ -80,7 +80,7 @@ $scope.search = function() {
                     new_month_arr.push(curr);
                 }
             }
-
+            
             if(new_month_arr.length > 0) {
                 result[month_keys[i]] = new_month_arr;
                 new_months.push(month_keys[i])
@@ -97,7 +97,7 @@ $scope.search = function() {
         $scope.months = result_months;
     }
 }
-
+  
 
 }]);
 
