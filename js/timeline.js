@@ -2,6 +2,9 @@
 
 $(document).ready(function() {
 
+var searchVisible = false;
+var menuVisible = false;
+
 var timeline = [
   {month: "august 2016", id: "august16" },
   {month: "september 2016", id: "september16" },
@@ -57,17 +60,31 @@ $(window).scroll(function() {
 function searchBtn() {
   //$( "header" ).css('background-color', '#b62424');
   //$( "header > .wrapper" ).css('padding', '2.5em 0');
-  $('#search').fadeIn("100ms");
-  $('#close-btn').fadeIn("125ms");
+    if(!searchVisible || menuVisible) {
+        searchVisible = true;
+        $('#search').fadeIn("100ms");
+        $('#close-btn').fadeIn("125ms");
+    } else {
+        searchVisible = false;
+        closeMenu();
+    }
+  
 }
 $('#search-btn').click(function() {
   searchBtn();
 });
 
 function menuBtn() {
-  searchBtn();
-  $('header > .wrapper > main').fadeIn("150ms");
+    if(menuVisible) {
+        menuVisible = false;
+        closeMenu();
+    } else {
+        menuVisible = true;
+        searchBtn();
+        $('header > .wrapper > main').fadeIn("150ms");
+    }
 }
+  
 $('#bars').click(function()  {
   menuBtn();
 });
