@@ -1,5 +1,6 @@
 <div class = "article">
-  <div class="article-block {{articleData.section}} {{articleData.type}}" style = "background-image:url('{{articleData.img}}')">
+  <a  href="{{articleData.link}}" target="_blank">
+    <div class="article-block {{articleData.section}} {{articleData.type}}" style = "background-image:url('{{articleData.img}}')">
     <div class="text">
       <h3 class="headline">
        {{articleData.headline}}
@@ -8,8 +9,12 @@
         {{articleData.description}}
       </p>
     </div>
+
+<!--
     <div class="btn-wrapper">
-      <a href="{{articleData.link}}" target="_blank" class="btn-red btn-readmore">read more</a>
+      <a  href="{{articleData.link}}" target="_blank" class="btn-red">read more</a>
     </div>
+-->
   </div>
+  </a>
 </div>

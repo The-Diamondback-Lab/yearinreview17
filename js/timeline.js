@@ -1,6 +1,15 @@
 // TIMELINE FUNCTIONS
 
+function articleTada() {
+  var rand = Math.floor(Math.random() * ('.article-block').length) + 1;
+  $('.article-block')
+      .eq(rand)
+      .addClass('is-emph')
+      .siblings().removeClass('is-emph');
+}
+
 $(document).ready(function() {
+
 
       var timeline = [{
           month: "august 2016",
