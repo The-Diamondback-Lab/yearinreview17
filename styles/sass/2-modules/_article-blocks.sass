@@ -1,6 +1,7 @@
 /* ARTICLE BLOCKS - ARTICLE BLOCKS.SASS */
 
 .article-block
+  +transition(all, .2s, ease-in-out)
   +bkg2(center, center)
   //border-radius: .5em
   display: inline-block
@@ -9,6 +10,10 @@
   box-sizing: border-box
   padding: 1.25em 1em
   
+  &:hover
+    -ms-transform: scale(1.1, 1.1)
+    -webkit-transform: scale(1.1, 1.1)
+    transform: scale(1.1, 1.1)
   .text
     //border-radius: .5em
     background-color: rgba($black, .65)
@@ -27,6 +32,7 @@
       margin: .5em 0 .75em 0
       font-size: .87em
       line-height: 1.25em
+      font-weight: 400 !important
 
   .btn-wrapper
     width: 100%

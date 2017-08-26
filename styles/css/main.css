@@ -39,10 +39,11 @@ header .wrapper .icons #bars { padding-left: 0.75em; }
 header .wrapper #search { display: none; background-color: transparent; border: 5px solid #333333; padding: 0.75em 1.5em; margin: 1em 0; width: 100%; outline: none; }
 header .wrapper #search::placeholder { font-family: "Lora", serif; text-transform: uppercase; color: #fff; }
 header .wrapper main { display: none; margin-bottom: 1em; }
+header .wrapper main nav { font-family: "Lora", serif; text-transform: capitalize; }
 header .wrapper main nav p { text-transform: uppercase; color: #fff; margin: 0; font-size: 1.1em; font-weight: 700; }
 header .wrapper main nav div { margin: 0.25em 0 0.75em 0; }
 header .wrapper main nav div a { text-transform: capitalize; color: #d9d9d9; margin: 0 0.5em 0 0; }
-header .wrapper #close-btn { display: none; align-self: flex-end; text-transform: capitalize; }
+header .wrapper #close-btn { display: none; align-self: flex-end; font-family: "Lora", serif; text-transform: capitalize; margin-left: 0.75em; }
 
 /* TIMELINE STYLES - TIMELINE.SASS */
 #timeline { display: flex; flex-direction: row; background-color: #d9d9d9; padding: 2.5em 0; }
@@ -57,11 +58,12 @@ header .wrapper #close-btn { display: none; align-self: flex-end; text-transform
 #timeline .wrapper .month-block .articles-wrapper { width: 100%; -moz-columns: 3 315px; -webkit-columns: 3 315px; columns: 3 315px; -moz-column-gap: 1.5em; -webkit-column-gap: 1.5em; column-gap: 1.5em; padding: 0; }
 
 /* ARTICLE BLOCKS - ARTICLE BLOCKS.SASS */
-.article-block { background-size: cover; background-repeat: no-repeat; background-position: center center; display: inline-block; margin: 0 0 1em; width: 100%; box-sizing: border-box; padding: 1.25em 1em; }
+.article-block { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; background-size: cover; background-repeat: no-repeat; background-position: center center; display: inline-block; margin: 0 0 1em; width: 100%; box-sizing: border-box; padding: 1.25em 1em; }
+.article-block:hover { -ms-transform: scale(1.1, 1.1); -webkit-transform: scale(1.1, 1.1); transform: scale(1.1, 1.1); }
 .article-block .text { background-color: rgba(40, 34, 34, 0.65); padding: 0.75em; margin: 0 0 1em 0; }
 .article-block .text .headline, .article-block .text .blurb { color: #fff; }
 .article-block .text .headline { text-transform: capitalize; margin: 0; font-size: 1.1em; }
-.article-block .text .blurb { margin: 0.5em 0 0.75em 0; font-size: 0.87em; line-height: 1.25em; }
+.article-block .text .blurb { margin: 0.5em 0 0.75em 0; font-size: 0.87em; line-height: 1.25em; font-weight: 400 !important; }
 .article-block .btn-wrapper { width: 100%; }
 .article-block .btn-wrapper a { float: right; }
 

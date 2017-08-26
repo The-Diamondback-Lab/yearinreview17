@@ -43,23 +43,7 @@ $('#top').click(function() {
   return false;
 });
 
-//header + nav
-//function header() {
-//  if ($(window).scrollTop < 100) {
-//    //$( "header" ).css('background-color', 'transparent');
-//    $( "header > .wrapper" ).css('padding', '2.5em 0');
-//  } else {
-//    //$( "header" ).css('background-color', '#b62424');
-//    $( "header > .wrapper" ).css('padding', '1.5em 0');
-//  }
-//}
-$(window).scroll(function() {
-  //header();
-});
-
 function searchBtn() {
-  //$( "header" ).css('background-color', '#b62424');
-  //$( "header > .wrapper" ).css('padding', '2.5em 0');
     if(!searchVisible || menuVisible) {
         searchVisible = true;
         $('#search').fadeIn("100ms");
