@@ -3,8 +3,10 @@ var review_app = angular.module("review-app", []);
 review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
 
     $scope.term = "";
-    full_data = [];
-    full_months = [];
+    var full_data = [];
+    var full_months = [];
+    var search_data = [];
+    var search_months = [];
   loadData();
     
     
@@ -15,6 +17,7 @@ review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
         success(function(data, status, headers, config) {
           $scope.articles = data;
             full_data = data;
+            search_data = data;
         }).error(function(data, status, headers, config) {
           console.log("Cannot read data from JSON file.");
     });
@@ -23,6 +26,7 @@ review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
       success(function(data, status, headers, config) {
           $scope.months = data;
             full_months = data;
+            search_months = data;
       }).error(function(data, status, headers, config) {
           console.log("Cannot read data from JSON file.")
     });
@@ -31,6 +35,8 @@ review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
 $scope.filterCategory = function(category) {
     if(category == "all") {
         $scope.articles = full_data;
+        search_data = full_data;
+        search_months = full_months;
         $scope.months = full_months;
     } else {
         result = {}
@@ -52,6 +58,7 @@ $scope.filterCategory = function(category) {
             }
         }
         $scope.articles = result;
+        search_data = result;
         result_months = []
         for(k = 0, m_len = full_months.length; k < m_len; k++) {
             if(new_months.indexOf(full_months[k]["id"]) >= 0) {
@@ -59,24 +66,25 @@ $scope.filterCategory = function(category) {
             }
         }
         $scope.months = result_months;
+        search_months = result_months;
     }
 }
 
 $scope.search = function() {
     term = $scope.term;
     if(term.length < 3) {
-        $scope.articles = full_data;
-        $scope.months = full_months;
+        $scope.articles = search_data;
+        $scope.months = search_months;
     } else {
         result = {}
         new_months = []
-        month_keys = Object.keys(full_data)
+        month_keys = Object.keys(search_data)
         for(i = 0, len = month_keys.length; i < len; i++) {
-            curr_month = full_data[month_keys[i]];
+            curr_month = search_data[month_keys[i]];
             new_month_arr = []
             for(j = 0, month_len = curr_month.length; j < month_len; j++) {
                 curr = curr_month[j];
-                if(curr["headline"].indexOf(term) >= 0 || curr["description"].indexOf(term) >= 0) {
+                if(curr["headline"].toLowerCase().indexOf(term) >= 0 || curr["description"].toLowerCase().indexOf(term) >= 0) {
                     new_month_arr.push(curr);
                 }
             }
