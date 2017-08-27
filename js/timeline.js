@@ -132,6 +132,8 @@ $(document).ready(function() {
   
     //article hovers
     function turnOffArticleHovers() {
+      closeMenu();
+      $('#hover-display').text('article hover: off');
       $('#hovertoggle').text('turn on article hovers');
       $('.article-block > .text').css('visibility', 'visible');
       $('article').hover(
@@ -144,6 +146,8 @@ $(document).ready(function() {
       );
     }
     function turnOnArticleHovers() {
+      closeMenu();
+      $('#hover-display').text('article hover: on');
       $('#hovertoggle').text('turn off article hovers');
       $('.article-block > .text').css('visibility', 'hidden');
       $('article').hover(
