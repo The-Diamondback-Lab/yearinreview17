@@ -46,7 +46,9 @@ header .wrapper main nav div { margin: 0.25em 0 0.75em 0; }
 header .wrapper main nav div a { font-family: "Lora", serif; text-transform: capitalize; color: #d9d9d9; margin: 0 0.5em 0 0; }
 header .wrapper main nav #filterbycat a:hover { font-weight: 400; }
 header .wrapper main nav #filterbycat a.clicked { font-weight: 700; }
-header .wrapper #close-btn { display: none; align-self: flex-end; font-family: "Lora", serif; text-transform: capitalize; margin-left: 0.75em; }
+header .wrapper .menu-btns { display: none; align-items: flex-end; justify-content: flex-end; width: 100%; }
+header .wrapper .menu-btns #hovertoggle, header .wrapper .menu-btns #close-btn { font-family: "Lora", serif; text-transform: capitalize; margin: 0 0 0 0.75em; }
+header .wrapper .menu-btns #hovertoggle { color: #fff; }
 
 /* TIMELINE STYLES - TIMELINE.SASS */
 #timeline { display: flex; flex-direction: row; background-color: #fff; padding: 2.5em 0; }
@@ -62,8 +64,9 @@ header .wrapper #close-btn { display: none; align-self: flex-end; font-family: "
 
 /* ARTICLE BLOCKS - ARTICLE BLOCKS.SASS */
 .article-block { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; background-size: cover; background-repeat: no-repeat; background-position: center center; display: inline-block; margin: 0 0 1em; width: 100%; height: 450px; box-sizing: border-box; }
+.article-block:hover .text { visibility: visible; }
 .article-block.is-emph { animation-name: tada; animation-duration: 1s; animation-fill-mode: both; z-index: 1; }
-.article-block .text { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; background-color: rgba(40, 34, 34, 0.65); padding: 1.25em 1em; margin: 0 0 1em 0; height: 100%; }
+.article-block .text { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; background-color: rgba(40, 34, 34, 0.65); padding: 1.25em 1em; margin: 0 0 1em 0; height: 100%; visibility: hidden; }
 .article-block .text .headline, .article-block .text .blurb { color: #fff; }
 .article-block .text .headline { text-transform: capitalize; margin: 0; font-size: 1.1em; }
 .article-block .text .blurb { margin: 0.5em 0 0.75em 0; font-size: 0.87em; line-height: 1.25em; font-weight: 400 !important; }

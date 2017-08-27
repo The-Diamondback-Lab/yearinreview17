@@ -11,6 +11,10 @@
   box-sizing: border-box
   //padding: 1.25em 1em
   
+  &:hover
+    .text
+      visibility: visible
+  
   &.is-emph
     animation-name: tada
     animation-duration: 1s
@@ -26,6 +30,7 @@
     padding: 1.25em 1em
     margin: 0 0 1em 0
     height: 100%
+    visibility: hidden
     
     .headline, .blurb
       color: $white

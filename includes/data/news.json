@@ -6,7 +6,7 @@
       "type": "crime",
       "description": "University of Maryland Police incorrectly deployed pepper spray at a graduation party of predominantly black students, prompting outrage on social media and the two-week suspension of an officer. A five-week internal investigation did not discover evidence the incident was racially motivated, but some students disagreed. This incident occurred one week after Philando Castile and Alton Sterling, two black men, died at the hands of police officers. Read about UMPD’s investigation and watch body camera footage in The Diamondback’s coverage.",
       "link": "http://features.dbknews.com/2016/07/16/university-of-maryland-police-umpd-pepper-spray-investigation-results/",
-      "img": "assets/img/articles/01_img_Article01-Aug16.jpg"
+      "img": "background-image: url(assets/img/articles/01_img_Article01-Aug16.jpg);"
     }
   ],
 
@@ -17,7 +17,7 @@
       "type": "development",
       "description": "DOTS Director David Allen announced plans to eliminate nearly 3,000 parking spaces by fall 2018 due to ongoing construction projects. He said DOTS will also restrict freshmen and sophomores from parking on campus starting fall 2017, with some exceptions. Students who wish to park on campus will also face a nearly 20 percent fee increase.",
       "link": "http://www.dbknews.com/2016/09/08/umd-campus-parking-elimination-fees/",
-      "img": "assets/img/articles/02_img_Article01-Sept16.jpg"
+      "img": "background-image: url(assets/img/articles/02_img_Article01-Sept16.jpg);"
     },
     {
       "headline": "The SGA wants to add a mandatory student fee to fund UMD's Title IX office",
@@ -25,7 +25,7 @@
       "type": "politics",
       "description": "Under the leadership of current Student Government Association President A.J. Pruitt, who was the student affairs vice president at the time, the SGA proposed a plan to charge all undergraduate and graduate students a mandatory fee that would help support this university’s underfunded Office of Civil Rights and Sexual Misconduct. The SGA ultimately withdrew the proposal in October but pledged to continue advocating and raising funds for the office.",
       "link": "http://www.dbknews.com/2016/09/21/sga-sexual-misconduct-title-ix-fee/",
-      "img": "assets/img/articles/03_img_Article02_Sept16.jpg"
+      "img": "background-image: url(assets/img/articles/03_img_Article02_Sept16.jpg);"
     },
     {
       "headline": "\"An unspeakable tragedy\": A murder-suicide stuns College Park",
@@ -33,7 +33,7 @@
       "type": "crime",
       "description": "Farhad Siddique, a junior at this university, was found dead in a parking lot near Parkside apartments. Police and investigators believe he was shot and killed by his father, who then shot and killed himself.",
       "link": "http://features.dbknews.com/2016/09/29/an-unspeakable-tragedy-a-murder-suicide-stuns-college-park/",
-      "img": "assets/img/articles/04_img_Article03_Sept16.jpg"
+      "img": "background-image: url(assets/img/articles/04_img_Article03_Sept16.jpg);"
     }
   ],
 
@@ -44,7 +44,7 @@
       "type": "state",
       "description": "Hoping to strengthen the University System of Maryland, the strategic partnership of this university and the University of Maryland, Baltimore formally went into effect. The move provides opportunities to increase funding initiatives on both campuses and makes it easier for students to transition between some academic programs on both campuses.",
       "link": "http://www.dbknews.com/2016/10/01/university-of-maryland-college-park-baltimore-partnership/",
-      "img": "assets/img/articles/55_img_Article06_Oct16.jpg"
+      "img": "background-image: url(assets/img/articles/55_img_Article06_Oct16.jpg);"
     },
     {
       "headline": "Report of armed man was a false alarm",
@@ -52,7 +52,7 @@
       "type": "crime",
       "description": "A UMD alert warned of a possible gunman carrying what appeared to be an AR-15 walking around near Ritchie Coliseum and instructed everyone to avoid the area. The police ultimately found that the individual belonged to the ROTC program and carried a rubber rifle. UMPD pledged to work with military commanders to ensure an incident like this would never happen again. The university currently follows the ‘Run, Hide, Fight’ emergency procedure in the event of an active shooter.",
       "link": "http://www.dbknews.com/2016/10/06/umd-gun-route-1-college-park/",
-      "img": "assets/img/articles/05_img_Article01_Oct16.jpg"
+      "img": "background-image: url(assets/img/articles/05_img_Article01_Oct16.jpg);"
     },
     {
       "headline": "UMD expelled a record four students for sexual assault last year",
@@ -60,7 +60,7 @@
       "type": "ix",
       "description": "For the second year in a row, this university expelled a record number of students for sexual assault. In the 2015-16 school year, this university expelled four students, the most for one year in its history, after expelling three the year before. At a University Senate meeting, Title IX Officer Catherine Carroll said the office was overwhelmed with reports and did not possess sufficient infrastructure to handle the complaints in a time-sensitive manner. She addressed the need for more funding.",
       "link": "http://www.dbknews.com/2016/10/07/umd-sexual-assault-expelled-students/",
-      "img": "assets/img/articles/06_img_Article02_Oct16.jpg"
+      "img": "background-image: url(assets/img/articles/06_img_Article02_Oct16.jpg);"
     },
     {
       "headline": "Buzzfeed wrote about a UMD Title IX fee proposal, but the story is a little misleading",
@@ -68,7 +68,7 @@
       "type": "ix",
       "description": "The SGA’s mandatory fee proposal received national attention when Buzzfeed incorrectly covered it. Their headline read ‘University of Maryland Passes Title IX Costs On To Students,’ even though President Loh’s cabinet had not yet approved the proposal.",
       "link": "http://www.dbknews.com/2016/10/12/university-of-maryland-title-ix-fee-buzzfeed/",
-      "img": "assets/img/articles/07_img_Article03_Oct16.jpg"
+      "img": "background-image: url(assets/img/articles/07_img_Article03_Oct16.jpg);"
     },
     {
       "headline": "Maryland football's Will Likely suffered a torn ACL and will miss the rest of the season",
@@ -76,7 +76,7 @@
       "type": "football",
       "description": "Days after Maryland football cornerback Will Likely suffered an injury in the Terps’ loss to Minnesota, the team announced he was diagnosed with a torn right ACL and would be sidelined for the remainder of his senior season. At the time of the injury, Likely led the Terps with three pass breakups and three passes defended.",
       "link": "http://www.dbknews.com/2016/10/21/will-likely-maryland-football-torn-acl/",
-      "img": "assets/img/articles/08_img_Article04_Oct16.jpg"
+      "img": "background-image: url(assets/img/articles/08_img_Article04_Oct16.jpg);"
     },
     {
       "headline": "Terps for Trump cancel Milo Yiannopuolos event",
@@ -84,7 +84,7 @@
       "type": "news",
       "description": "After booking former Breitbart editor and media personality Milo Yiannopoulos to speak on campus as part of his 'Dangerous Faggot' tour, Terps for Trump canceled the event due to the high cost of security required by the university. Campus officials cited violence, protests and bomb threats that have broken out at other institutions where he has spoken to justify the extra costs of securing the show. (additional link applicable: Milo later weighed in on the cancelation and said the UMD community would 'suffer for it,' reasoning that student rights had been violated by the administration's imposition of higher security costs for him to appear.",
       "link": "http://www.dbknews.com/2016/10/26/milo-yiannopoulos-terps-for-trump-canceled-event/",
-      "img": "assets/img/articles/09_img_Article05_Oct16.jpg"
+      "img": "background-image: url(assets/img/articles/09_img_Article05_Oct16.jpg);"
     },
     {
       "headline": "SGA withdraws mandatory Title IX fee proposal",
@@ -92,7 +92,7 @@
       "type": "ix",
       "description": "After a meeting between university administration officials and SGA leadership, the SGA voted to withdraw the $34 mandatory fee proposal that would help fund the Office of Civil Rights and Sexual Misconduct. A week earlier, the university announced it would add six more positions across two offices — Title IX and CARE to Stop Violence — to help combat sexual misconduct on the campus.",
       "link": "http://www.dbknews.com/2016/10/26/sga-withdraw-title-ix-fee-proposal/",
-      "img": "assets/img/articles/10_img_Article06_Oct16.jpg"
+      "img": "background-image: url(assets/img/articles/10_img_Article06_Oct16.jpg);"
     }
   ],
 
@@ -103,7 +103,7 @@
       "type": "politics",
       "description": "The morning after Donald Trump was elected president, emotions swirled as the campus reacted to the news some had hoped for and others had feared. Students gathered in front of McKeldin Mall the night after Trump’s victory to protest his attitude toward minorities. In the crowd, one of our writers realized that his fears went beyond just what it meant for him as a member of the LGBTQ community. And throughout campus, feminists of all genders shuddered recalling Trump’s comments about sexually assaulting woman. On a primarily liberal campus, many were shaken by the news, with some professors canceling tests, while others saw Trump's victory as a move in the right direction.",
       "link": "http://www.dbknews.com/2016/11/11/trump-reaction-podcast/",
-      "img": "assets/img/articles/11_img_Article01_Nov16.jpg"
+      "img": "background-image: url(assets/img/articles/11_img_Article01_Nov16.jpg);"
     },
     {
       "headline": "UMD community speaks out against sexual assault and Donald Trump's \"victim-blaming culture\"",
@@ -111,7 +111,7 @@
       "type": "ix activism",
       "description": "Days after President Trump’s victory over Hillary Clinton in the 2016 election, students gathered on McKeldin Mall for a rally speaking out against sexual assault, ending the event with a sit-in protest inside the Main Administration Building. Speakers highlighted Trump’s derogatory rhetoric toward women and the sexual assault accusations against him. They marched to the administration building and posted hand-written notes on the door leading to the administrative offices demanding more funding for sexual violence prevention programming and the Title IX office, as well as a harsher condemnation of Trump.",
       "link": "http://www.dbknews.com/2016/11/12/umd-rally-love-trumps-hate-donald-trump-sexual-assault/",
-      "img": "assets/img/articles/12_img_Article02_Nov16.jpg"
+      "img": "background-image: url(assets/img/articles/12_img_Article02_Nov16.jpg);"
     },
     {
       "headline": "Two Maryland football freshman charged with assault for BB gun incident",
@@ -119,7 +119,7 @@
       "type": "football",
       "description": "Maryland football wide receiver DJ Turner and running back Lorenzo Harrison were charged with three accounts of second-degree assault and reckless endangerment for their involvement in an on-campus BB gun incident. Pellets struck three Maryland students during the incident, which occurred Nov. 6.",
       "link": "http://www.dbknews.com/2016/11/16/maryland-football-lorenzo-harrison-dj-turner-assault-bb-gun-incident/",
-      "img": "assets/img/articles/13_img_Article03_Nov16.jpg"
+      "img": "background-image: url(assets/img/articles/13_img_Article03_Nov16.jpg);"
     },
     {
       "headline": "The Hotel at UMD is set to create about 500 jobs [The Hotel at UMD is set to open next summer and create about 500 jobs]",
@@ -127,7 +127,7 @@
       "type": "development city",
       "description": "The Hotel at the University of Maryland is officially set to open in July with reservations starting in August. It comes four new restaurants as well as a Red Door Spa. Two of these restaurants, Old Maryland Grill and Kapnos Taverna, are expected to have an upscale dining ambiance that many believe College Park currently lacks. The Hotel will bring about 500 jobs for staff and other personnel, not including those provided by and the restaurants and spa.",
       "link": "http://www.dbknews.com/2016/11/14/the-hotel-university-of-maryland-jobs/",
-      "img": "assets/img/articles/14_img_Article04_Nov16.jpg"
+      "img": "background-image: url(assets/img/articles/14_img_Article04_Nov16.jpg);"
     },
     {
       "headline": "No. 1 Maryland men's soccer blew a 4-1 lead in the NCAA tournament's second round",
@@ -135,7 +135,7 @@
       "type": "soccer",
       "description": "The Hotel at the University of Maryland is officially set to open in July with reservations starting in August. It comes four new restaurants as well as a Red Door Spa. Two of these restaurants, Old Maryland Grill and Kapnos Taverna, are expected to have an upscale dining ambiance that many believe College Park currently lacks. The Hotel will bring about 500 jobs for staff and other personnel, not including those provided by and the restaurants and spa.",
       "link": "http://www.dbknews.com/2016/11/21/maryland-mens-soccer-providence-ncaa-tournament-score-recap/",
-      "img": "assets/img/articles/15_img_Article05_Nov16.jpg"
+      "img": "background-image: url(assets/img/articles/15_img_Article05_Nov16.jpg);"
     }
   ],
 
@@ -146,7 +146,7 @@
       "type": "politics activism admin",
       "description": "In late November, a coalition of 25 student groups on campus sent a letter to President Loh outlining a list of 64 demands and recommendations meant to support marginalized student populations. The Diamondback spoke with members both in and outside the coalition in an effort to gauge how each demand would affect campus life. Read about the origin and intention of each demand",
       "link": "http://www.dbknews.com/protect-umd-demands/",
-      "img": "assets/img/articles/16_img_Article01_Dec16.jpg"
+      "img": "background-image: url(assets/img/articles/16_img_Article01_Dec16.jpg);"
     },
     {
       "headline": "White nationalist posters found on University of Maryland buildings",
@@ -154,7 +154,7 @@
       "type": "crime",
       "description": "In December, university police responded to two calls of white nationalist posters being spotted on campus.  Bearing the ‘American Vanguard’ logo, the posters were removed by police. American Vanguard's manifesto calls for an end of multiculturalism and a restoration of white-run government and economy. The university condemned the posters in an email but validated students’ right to free speech on campus.",
       "link": "http://www.dbknews.com/2016/12/12/white-nationalist-posters-university-of-maryland/",
-      "img": "assets/img/articles/17_img_Article02_Dec16.jpg"
+      "img": "background-image: url(assets/img/articles/17_img_Article02_Dec16.jpg);"
     },
     {
       "headline": "Terps football loses to Boston College in last game of Durkin's first year as head coach",
@@ -162,7 +162,7 @@
       "type": "football",
       "description": "One year after the firing of then-head coach Randy Edsall amidst an eventual 3-9 campaign, newcomer DJ Durkin led the Terps to the Quick Lane Bowl in Detroit. Maryland lost to Boston College, 36-30, after almost rallying from a 23-point deficit. Maryland couldn’t take advantage of its final stop with a minute and a half remaining in the contest, and finished Durkin’s first season 6-7.",
       "link": "http://www.dbknews.com/2016/12/26/maryland-boston-college-football-bowl-score/",
-      "img": "assets/img/articles/18_img_Article03_Dec16.jpg"
+      "img": "background-image: url(assets/img/articles/18_img_Article03_Dec16.jpg);"
     },
     {
       "headline": "Ex-UMD student filing lawsuit against school over sexual assault expulsion",
@@ -170,7 +170,7 @@
       "type": "legal ix admin",
       "description": "An ex-UMD student accused of sexual assault in 2015 is seeking $5 million in damages from this university for wrongful expulsion. The student, claiming that the university violated its due process regulations, also seeks re-enrollment and removal of the expulsion from his file. In an interview with The Diamondback, President Loh promised that the university would mount a vigorous defense.",
       "link": "http://www.dbknews.com/2016/12/09/umd-student-lawsuit-expelled-sexual-assault/",
-      "img": "assets/img/articles/19_img_Article04_Dec16.jpg"
+      "img": "background-image: url(assets/img/articles/19_img_Article04_Dec16.jpg);"
     }
   ],
 
@@ -181,7 +181,7 @@
       "type": "politics",
       "description": "Under President Trump’s original travel ban that affected citizens from seven Muslim countries, airport security at Washington Dulles Airport retained one UMD junior. She was eventually released after five hours of uncertainty.",
       "link": "http://www.dbknews.com/2017/02/01/maryland-student-detained-trump-travel-ban/",
-      "img": "assets/img/articles/20_img_Article01_Jan17.jpg"
+      "img": "background-image: url(assets/img/articles/20_img_Article01_Jan17.jpg);"
     },
     {
       "headline": "There was a literal dumpster fire outside of Commons 5",
@@ -189,7 +189,7 @@
       "type": "humor",
       "description": "In a crisis that was more funny than harmful, a Commons 5 dumpster was found ablaze sending smoke up the building’s trash chutes. After the fire alarm sent all the building’s inhabitants outside into the January night, firefighters hosed down the dumpster, avoiding any permanent damage.",
       "link": "http://www.dbknews.com/2017/01/30/umd-commons-5-fire-trash-dumpster/",
-      "img": "assets/img/articles/21_img_Article02_Jan17.jpg"
+      "img": "background-image: url(assets/img/articles/21_img_Article02_Jan17.jpg);"
     }
   ],
 
@@ -200,7 +200,7 @@
       "type": "development",
       "description": "DOTS proposed building a new 600-space parking garage that will take four years to build to address the shortages caused by new building projects. The location of the garage has not yet been determined.",
       "link": "http://www.dbknews.com/2017/02/01/umd-rha-budget-proposals-dots-parking-garage/",
-      "img": "assets/img/articles/22_img_Article01_Feb17.jpg"
+      "img": "background-image: url(assets/img/articles/22_img_Article01_Feb17.jpg);"
     },
     {
       "headline": "Lupe Fiasco reviewed his new album. We reviewed his review.",
@@ -208,7 +208,7 @@
       "type": "humor",
       "description": "Lupe Fiasco took to Twitter to review his own album. Then we reviewed his review, which prompted the rapper to review our review on Twitter. What fun!",
       "link": "http://www.dbknews.com/2017/02/13/lupe-fiasco-album-review/",
-      "img": "assets/img/articles/23_img_Article02_Feb17.jpg"
+      "img": "background-image: url(assets/img/articles/23_img_Article02_Feb17.jpg);"
     },
     {
       "headline": "Amid political madness, ‘Saturday Night Live’ goes rogue",
@@ -216,7 +216,7 @@
       "type": "tv",
       "description": "Melissa McCarthy’s portrayal of Sean Spicer breathed life into this country - and as one of our writers suggested - Saturday Night Live itself. The character helped pull the 42-year-old show out of a rut as the cast began to voice clear opinions instead of just spoofing political figures",
       "link": "http://www.dbknews.com/2017/02/15/snl-political-comedy/",
-      "img": "assets/img/articles/24_img_Article03_Feb17.jpg"
+      "img": "background-image: url(assets/img/articles/24_img_Article03_Feb17.jpg);"
     }
   ],
 
@@ -227,7 +227,7 @@
       "type": "politics city",
       "description": "The 2015 election was a competitive race between Patrick Wojahn and Denise Mitchell. Wojahn is the city’s first openly gay mayor. One of his biggest goals was to bring the council closer together and unite the districts, as there is a “divide” between Districts 1 and 4. Wojahn has been a left-leaning mayor, advocating for refugee rights, sanctuary cities and sustainability in the city. At this time he is running uncontested.",
       "link": "http://www.dbknews.com/2017/03/02/college-park-mayor-patrick-wojahn-reelection/",
-      "img": "assets/img/articles/25_img_Article01_Mar17.jpg"
+      "img": "background-image: url(assets/img/articles/25_img_Article01_Mar17.jpg);"
     },
     {
       "headline": "Vigilante Coffee will replace #1 Liquors on Route 1",
@@ -235,7 +235,7 @@
       "type": "development city",
       "description": "Vigilante Coffee opened its first location in nearby Hyattsville. Owner Chris Vigilante thinks College Park is a smart place to invest, and will open the shop’s second location in what was formerly #1 Liquors. The business specializes in unique coffee options, acai bowls and more. This project is also part of the Greater College Park Vision, which is aimed to revitalize and redevelop Route 1.",
       "link": "http://www.dbknews.com/2017/03/02/college-park-vigilante-coffee-shop/",
-      "img": "assets/img/articles/26_img_Article02_Mar17.jpg"
+      "img": "background-image: url(assets/img/articles/26_img_Article02_Mar17.jpg);"
     },
     {
       "headline": "Maryland women’s basketball’s season ends with a 77-63 loss to Oregon in the Sweet 16",
@@ -243,7 +243,7 @@
       "type": "w-bball",
       "description": "Brenda Frese’s iron grip on the Big Ten tightened in 2017, when the team won its third consecutive Big Ten tournament and regular season titles. Many speculated Maryland was underseeded after the team landed as a No. 3 seed in undefeated goliath University of Connecticut’s region. But the Terps never reached the Huskies after a shocking loss to No. 10 Oregon in the Sweet 16, ending the careers of Shatori Walker-Kimbrough and Brionna Jones. The defeat came a year after the No. 2 Terps lost to No. 7 Washington in the round of 32.",
       "link": "http://www.dbknews.com/2017/03/25/maryland-oregon-womens-basketball-score-ncaa-tournament/",
-      "img": "assets/img/articles/27_img_Article03_Mar17.jpg"
+      "img": "background-image: url(assets/img/articles/27_img_Article03_Mar17.jpg);"
     },
     {
       "headline": "More white nationalist posters found in University of Maryland building",
@@ -251,7 +251,7 @@
       "type": "crime",
       "description": "The University of Maryland Police Department received five reports of white nationalist poster sightings between December and March. In the Biology-Psychology Building, students found Identity Evropa posters, which belong to a white supremacy group. Police investigated the situation as a hate bias incident.",
       "link": "http://www.dbknews.com/2017/03/28/umd-white-supremacist-posters/",
-      "img": "assets/img/articles/28_img_Article04_Mar17.jpg"
+      "img": "background-image: url(assets/img/articles/28_img_Article04_Mar17.jpg);"
     },
     {
       "headline": "Like it or not, memes are the absurdist art form we need right now",
@@ -259,7 +259,7 @@
       "type": "humor",
       "description": "Memes aren’t just to laugh at — they’re modern art in its purest form. Our columnist wrote about the future of memes on the internet and how their popularity is a return to Dadaism. But mostly, they’re just a lot of fun.",
       "link": "http://www.dbknews.com/2017/03/27/dadaism-art-form-memes/",
-      "img": "assets/img/articles/29_img_Article05_Mar17.jpg"
+      "img": "background-image: url(assets/img/articles/29_img_Article05_Mar17.jpg);"
     },
     {
       "headline": "Maryland star Melo Trimble declares for the NBA draft and will hire an agent",
@@ -267,7 +267,7 @@
       "type": "m-bball",
       "description": "Melo Trimble, who revitalized a skidding basketball program and led the Terps to three consecutive NCAA tournaments, declared for the NBA draft in March. Despite concerns about his athleticism and outside shooting, Trimble hired an agent, forgoing his senior season after testing the waters the previous year. In 2016, he led the Terps to their first sweet 16 since 2003. Trimble was Maryland’s scoring leader for three years, and the team was 30-8 in games decided by six or fewer points during his tenure.",
       "link": "http://www.dbknews.com/2017/03/29/melo-trimble-nba-draft-maryland-basketball/",
-      "img": "assets/img/articles/30_img_Article06_Mar17.jpg"
+      "img": "background-image: url(assets/img/articles/30_img_Article06_Mar17.jpg);"
     }
   ],
 
@@ -278,7 +278,7 @@
       "type": "crime",
       "description": "The body of a former University of Maryland professor, Stan Fromovitz, 80, was found along the Indian Creek Trail on April 1 by a group of students participating in College Park’s annual Good Neighbor Day. No foul play was suspected, and reports from the medical examiner indicate he died from a heart attack and drowning, though the course of events is unclear.",
       "link": "http://www.dbknews.com/2017/04/03/body-identified-former-umd-professor/",
-      "img": "assets/img/articles/31_img_Article01_Apr17.jpg"
+      "img": "background-image: url(assets/img/articles/31_img_Article01_Apr17.jpg);"
     },
     {
       "headline": "Freshman star Destiny Slocum will transfer from the Maryland women’s basketball team",
@@ -286,7 +286,7 @@
       "type": "w-bball",
       "description": "Shortly after being recognized as the National Freshman of the Year, Maryland women’s basketball guard Destiny Slocum announced she planned to transfer from the program. Slocum, who started all but one game during her first season in College Park, joined Oregon State. She averaged 11.5 points and six assists per game. She was part of a flurry of women’s basketball transfers during the offseason, joining Jenna Staiti, Kiah Gillespie and Kiara Leslie.",
       "link": "http://www.dbknews.com/2017/04/04/maryland-womens-basketball-destiny-slocum-transfer/",
-      "img": "assets/img/articles/32_img_Article02_Apr17.jpg"
+      "img": "background-image: url(assets/img/articles/32_img_Article02_Apr17.jpg);"
     },
     {
       "headline": "Maryland basketball guard Jaylen Brantley will transfer after graduating this summer",
@@ -294,7 +294,7 @@
       "type": "m-bball",
       "description": "Maryland men's basketball guard Jaylen Brantley announced plans to transfer from the program, deciding to play his final college season at the University of Massachusetts Amherst. Brantley spent two years in College Park and was productive last season, averaging 4.9 points per contest as a reserve. With Kevin Huerter and Anthony Cowan likely to start in 2017-18, Brantley likely sought more playing time.",
       "link": "http://www.dbknews.com/2017/04/10/jaylen-brantley-maryland-basketball-transfer-scholarships/",
-      "img": "assets/img/articles/33_img_Article03_Apr17.jpg"
+      "img": "background-image: url(assets/img/articles/33_img_Article03_Apr17.jpg);"
     },
     {
       "headline": "Unity Party violates SGA election rules by not disclosing support from conservative nonprofit",
@@ -302,7 +302,7 @@
       "type": "politics",
       "description": "The entire Unity Party ticket withdrew from the University of Maryland’s Student Government Association elections following a Diamondback report exposing the group’s failure to disclose campaign contributions in required preliminary financial reports. The party received pro-bono assistance from an affiliate of Turning Point USA, a nonprofit that encourages conservative students to run for campus office positions.",
       "link": "http://www.dbknews.com/2017/04/13/turning-point-unity-party-sga-umd/",
-      "img": "assets/img/articles/34_img_Article04_Apr17.jpg"
+      "img": "background-image: url(assets/img/articles/34_img_Article04_Apr17.jpg);"
     },
     {
       "headline": "Prince George’s County’s first Whole Foods opened Wednesday, and it’s kind of a big deal",
@@ -310,7 +310,7 @@
       "type": "development",
       "description": "The first Whole Foods in Prince George’s County opened up in April in Riverdale Park. It’s located in a $250 million mixed-use complex, which also houses various restaurants and town homes as part of the same development project. This was a big deal for the county, as it signified higher-end developments coming to the area, though others worry it’s an example of gentrification.",
       "link": "http://www.dbknews.com/2017/04/13/pg-county-whole-foods-grocery-store-opening/",
-      "img": "assets/img/articles/35_img_Article05_Apr17.jpg"
+      "img": "background-image: url(assets/img/articles/35_img_Article05_Apr17.jpg);"
     },
     {
       "headline": "Terps for Trump chalking outside Stamp advocated building a wall and deporting DREAMers",
@@ -318,7 +318,7 @@
       "type": "politics",
       "description": "Terps for Trump chalked several message outside of central campus’ Stamp Student Union, many of them advocating for building a wall between the U.S. and Mexico and deporting DREAMers. Others criticized CNN and praised President Trump. When Stamp officials upheld the chalkings as within campus guidelines, students used water to wash the messages away or chalked their own thoughts overtop or next to Terps for Trump’s. This university currently covers 20 students under Maryland's DREAM Act, which grants in-state tuition to undocumented students.",
       "link": "http://www.dbknews.com/2017/04/18/trump-chalking-umd-stamp/",
-      "img": "assets/img/articles/36_img_Article06_Apr17.jpg"
+      "img": "background-image: url(assets/img/articles/36_img_Article06_Apr17.jpg);"
     },
     {
       "headline": "Fuse 47 apartment complex at risk of collapse after fire on Monday, officials say",
@@ -326,7 +326,7 @@
       "type": "city",
       "description": "A five-alarm fire tore through Fuse 47 in April, costing nearly $40 million in damages. The building was going to open in July 2017 as a market-rate apartment building; in other words, it wasn’t necessarily geared toward students. The building was supposed to be “high tech” with keyless entry to apartments and other upgrades. It took hundreds of firefighters to contain the flames. The cause of the fire is still unknown. Workers began demolition in June, but the building’s developer said there are plans to rebuild.",
       "link": "http://www.dbknews.com/2017/04/24/fuse-47-apartments-fire-collapse/",
-      "img": "assets/img/articles/37_img_Article07_Apr17.jpg"
+      "img": "background-image: url(assets/img/articles/37_img_Article07_Apr17.jpg);"
     },
     {
       "headline": "One Party candidate A.J. Pruitt wins UMD SGA presidential election",
@@ -334,7 +334,7 @@
       "type": "politics",
       "description": "As a result of Unity Party’s withdrawal from the Student Government Association election, the One Party ticket ran essentially unopposed and won 85 percent of the campus-wide vote. SGA veteran and former student affairs vice president A.J. Pruitt defeated unaffiliated freshman candidate Chris Boretti in the presidential race.",
       "link": "http://www.dbknews.com/2017/04/24/aj-pruitt-wins-sga-election/",
-      "img": "assets/img/articles/38_img_Article08_Apr17.jpg"
+      "img": "background-image: url(assets/img/articles/38_img_Article08_Apr17.jpg);"
     },
     {
       "headline": "Edward St. John building on McKeldin Mall will be open in time for summer classes",
@@ -342,7 +342,7 @@
       "type": "development",
       "description": "After three years, the Edward St. John building on McKeldin Mall finished construction. Though the $119 million facility was not designated for any specific department, the building has 12 classrooms, nine chemistry labs and two green roofs. Professors seeking to teach in the facility must demonstrate elements of collaboration in their curricula before receiving approval.",
       "link": "http://www.dbknews.com/2017/04/28/edward-st-john-opening/",
-      "img": "assets/img/articles/39_img_Article09_Apr17.jpg"
+      "img": "background-image: url(assets/img/articles/39_img_Article09_Apr17.jpg);"
     }
   ],
 
@@ -353,7 +353,7 @@
       "type": "development",
       "description": "MilkBoy ArtHouse was a collaboration between the University of Maryland’s Clarice Smith Performing Arts Center and MilkBoy, a Philadelphia-based music and entertainment company, and other community partners. After more than a year of construction, the two-story building has two stages and a full bar and restaurant. The project celebrates the arts in College Park and is a big part of the Greater College Park initiative to revitalize the area.",
       "link": "http://www.dbknews.com/2017/05/03/milkboy-arthouse-opening-college-park/",
-      "img": "assets/img/articles/40_img_Article01_May17.jpg"
+      "img": "background-image: url(assets/img/articles/40_img_Article01_May17.jpg);"
     },
     {
       "headline": "Noose found in UMD Phi Kappa Tau chapter house kitchen",
@@ -361,7 +361,7 @@
       "type": "crime",
       "description": "Authorities responded to a report of a noose hanging in this university’s Phi Kappa Tau chapter house. Though limited people possess access to the house, the mystery of who hung it remains unsolved. Police are inviestigating the event as a hate bias incident, and University President Wallace Loh condemned the incident as a craven expression of bigotry.",
       "link": "http://www.dbknews.com/2017/05/03/phi-kappa-tau-hate-bias-incident/",
-      "img": "assets/img/articles/41_img_Article02_May17.jpg"
+      "img": "background-image: url(assets/img/articles/41_img_Article02_May17.jpg);"
     },
     {
       "headline": "Protesters demand action from Loh after noose was found in UMD fraternity house",
@@ -369,7 +369,7 @@
       "type": "activism admin",
       "description": "After a noose was found in a fraternity house, ProtectUMD organized a sit-in protest on the steps of the administration building. The protesters called for immediate administrative responses to hate speech, diversity training for all SGA-recognized and Greek organizations and the creation of an external review board to investigate hate bias incidents on the campus.",
       "link": "http://www.dbknews.com/2017/05/11/protectumd-occupy-admin-protest/",
-      "img": "assets/img/articles/42_img_Article03_May17.jpg"
+      "img": "background-image: url(assets/img/articles/42_img_Article03_May17.jpg);"
     },
     {
       "headline": "2 Chainz saves the day at Art Attack XXXIV",
@@ -377,7 +377,7 @@
       "type": "music",
       "description": "Maryland students were excited to see LA singer Ty Dolla $ign and Atlanta rapper 2 Chainz at this university’s yearly spring concert. Unfortunately, just hours before the show, Ty Dolla $ign canceled, leaving 2 Chainz as the sole big name to bless the stage. Luckily for us, he put on quite the show. 2 Chaaaaaainz!",
       "link": "http://www.dbknews.com/2017/05/09/2-chainz-performance-art-attack-xxxiv/",
-      "img": "assets/img/articles/43_img_Article04_May17.jpg"
+      "img": "background-image: url(assets/img/articles/43_img_Article04_May17.jpg);"
     },
     {
       "headline": " It's real: A seven-part look at how sexual assault is handled at the University of Maryland",
@@ -385,7 +385,7 @@
       "type": "ix admin crime legal activism",
       "description": "In an effort to determine what circumstances compelled students to file federal complaints against this university for possible Title IX violations, a group of Diamondback reporters spent four months speaking with more than 100 people, including students, campus officials, lawyers and sexual assault survivors. Read what they found about sexual assault at the University of Maryland.",
       "link": "http://itsreal.diamondbacklab.com/",
-      "img": "assets/img/articles/44_img_Article05_May17.jpg"
+      "img": "background-image: url(assets/img/articles/44_img_Article05_May17.jpg);"
     },
     {
       "headline": "Hatred and tragedy: following the homicide of Richard Collins IIId",
@@ -393,7 +393,7 @@
       "type": "crime",
       "description": "The murder of newly commissioned second Lt. Richard Collins, 23, on this university's campus shocked the nation. Collins, a black Bowie State student visiting friends in College Park, was fatally stabbed early morning on May 20 outside Montgomery Hall. Sean Urbanski, 22, a white University of Maryland student at the time, was charged with first- and second-degree murder, as well as first degree assault. University Police are working with the FBI to investigate whether this was a hate crime. Urbanski was found to be a member of the racist Facebook group “Alt-Reich: Nation.” Although he was formally indicted on murder charges on July 13, police are still investigating a motive.",
       "link": "http://features.dbknews.com/2017/05/23/university-of-maryland-homicide-richard-collins-death-sean-urbanski-bowie-state/",
-      "img": "assets/img/articles/45_img_Article06_May17.jpg"
+      "img": "background-image: url(assets/img/articles/45_img_Article06_May17.jpg);"
     },
     {
       "headline": "Maryland men’s lacrosse wins its first national title since 1975 with 9-6 win over Ohio State",
@@ -401,7 +401,7 @@
       "type": "m-lax",
       "description": "One year after a heartbreaking overtime loss to UNC ripped away Maryland’s chances at its first championship since 1975, the Terps found redemption and beat conference foe Ohio State, 9-6, to secure the title. Maryland withstood a late Buckeye rally — which had echoes of UNC’s 2016 comeback — through defensive effort and bench production. Senior Matt Rambo went on the win the Tewaaraton award, given to the nation’s best lacrosse player, marking the first time a Maryland men’s lacrosse player took home the award.",
       "link": "http://www.dbknews.com/2017/05/29/maryland-lacrosse-national-championship-ohio-state/",
-      "img": "assets/img/articles/46_img_Article07_May17.jpg);"
+      "img": "background-image: url(assets/img/articles/46_img_Article07_May17.jpg);"
     },
     {
       "headline": "After losing two stars, Maryland women’s lacrosse went undefeated for the first time since 2001",
@@ -409,7 +409,7 @@
       "type": "w-lax",
       "description": "The women’s lacrosse team endured similar heartbreak in 2016 after losing grip on a potentially undefeated season in a title game loss to UNC. The program lost cornerstones in midfielder Taylor Cummings, the first lacrosse player to ever win the Tewaaraton award three times, and defender Alice Mercer to graduation, creating doubt that the team could replicate its success. But senior leaders Zoe Stukenberg, the eventual 2017 Tewaaraton winner, and defender Nadine Hadnagy, a finalist for the award, carried Maryland all the way to championship weekend. The Terps beat Boston College 16-13 and secured the program's first undefeated season since 2001.",
       "link": "http://www.dbknews.com/2017/05/31/maryland-womens-lacrosse-national-championship-undefeated/",
-      "img": "assets/img/articles/47_img_Article08_May17.jpg"
+      "img": "background-image: url(assets/img/articles/47_img_Article08_May17.jpg);"
     }
   ],
 
@@ -420,7 +420,7 @@
       "type": "admin",
       "description": "University President wallace Loh pledged the administration will work with the SGA and University Senate in designing harsher sanctions for hate and bias incidents in the Code of Student Conduct. He also announced a task force that will review and evaluate this university’s hate bias policies and diversity programming. The administrative action came after students demanded more from this university’s leaders following a year of hate bias incidents, culminating in the death of Richard Collins, which is being investigated as a possible hate crime.",
       "link": "http://www.dbknews.com/2017/06/02/loh-announcement-hate-bias-sanctions/",
-      "img": "assets/img/articles/48_img_Article01_Jun17.jpg"
+      "img": "background-image: url(assets/img/articles/48_img_Article01_Jun17.jpg);"
     },
     {
       "headline": "Rob Vaughn becomes Maryland baseball head coach",
@@ -428,7 +428,7 @@
       "type": "baseball",
       "description": "Rob Vaughn was named the Maryland baseball team’s head coach after John Szefc accepted the lead job at Virginia Tech. Vaughn served as the team’s associate head coach in 2017 and guided an offense that collectively hit .274. Vaughn was an assistant in College Park for five seasons before being promoted.",
       "link": "http://www.dbknews.com/2017/06/15/maryland-baseball-rob-vaughn-coach-szefc/",
-      "img": "assets/img/articles/49_img_Article02_Jun17.jpg"
+      "img": "background-image: url(assets/img/articles/49_img_Article02_Jun17.jpg);"
     },
     {
       "headline": "Two facilities management workers sue UMD, alleging racial discrimination",
@@ -436,7 +436,7 @@
       "type": "legal admin",
       "description": "Two facilities management workers filed a lawsuit against this university for racial discrimination, claiming they faced a hostile work environment and retaliation for complaints they had previously filed. Both men are black.",
       "link": "http://www.dbknews.com/2017/06/21/umd-facilities-management-employees-lawsuit-racial-discrimination/",
-      "img": "assets/img/articles/50_img_Article03_Jun17.jpg"
+      "img": "background-image: url(assets/img/articles/50_img_Article03_Jun17.jpg);"
     },
     {
       "headline": "UMD employee receives nation’s first gender-neutral driver’s license",
@@ -444,7 +444,7 @@
       "type": "news",
       "description": "Nic Sakurai, the University of Maryland’s LGBT Equity Center associate director, was the first person in the United States to be issued a gender-neutral license. Sakurai waited outside the DMV for hours at the end of June. Instead of marking the sex category with an “M” or an “F,” Sakurai’s license has an X. Starting at the end of June, District of Columbia residents such as Sakurai were eligible to get a gender-neutral license. Similar policies were also passed in Oregon in July. environment and retaliation for complaints they had previously filed. Both men are black.",
       "link": "http://www.dbknews.com/2017/06/30/neutral-gender-drivers-license-umd-transgender/",
-      "img": "assets/img/articles/51_img_Article03_Jun17.jpg"
+      "img": "background-image: url(assets/img/articles/51_img_Article03_Jun17.jpg);"
     }
   ],
 
@@ -455,7 +455,7 @@
       "type": "admin",
       "description": "In January, this university’s Chief Diversity Officer Kumea Shorter-Gooden resigned. The university launched a search for a replacement, eventually selecting professor and former chair of counseling, higher education and special education Roger L. Worthington in July as interim associate provost and chief diversity officer. As chief diversity officer, Worthington is responsible for this university's Office of Diversity and Inclusion and being involved with communication and programming to reinforce the university's commitment to diversity. After a string of hate bias reports on this university’s campus, Worthington said he wants to reinforce the school's position as national leader for diversity and inclusion in higher education by providing strong leadership.",
       "link": "http://www.dbknews.com/2017/07/06/new-cheif-diversity-officer/",
-      "img": "assets/img/articles/52_img_Article01_Jul17.jpg"
+      "img": "background-image: url(assets/img/articles/52_img_Article01_Jul17.jpg);"
     },
     {
       "headline": "College Park’s latest pizza place is open for business",
@@ -463,7 +463,7 @@
       "type": "development",
       "description": "In January, this university’s Chief Diversity Officer Kumea Shorter-Gooden resigned. The university launched a search for a replacement, eventually selecting professor and former chair of counseling, higher education and special education Roger L. Worthington in July as interim associate provost and chief diversity officer. As chief diversity officer, Worthington is responsible for this university's Office of Diversity and Inclusion and being involved with communication and programming to reinforce the university's commitment to diversity. After a string of hate bias reports on this university’s campus, Worthington said he wants to reinforce the school's position as national leader for diversity and inclusion in higher education by providing strong leadership.",
       "link": "http://www.dbknews.com/2017/07/12/lotsa-pizza-grand-opening-college-park/",
-      "img": "assets/img/articles/53_img_Article02_Jul17.jpg"
+      "img": "background-image: url(assets/img/articles/53_img_Article02_Jul17.jpg);"
     }
   ],
 
@@ -474,7 +474,7 @@
       "type": "development",
       "description": "The first phase of construction for the new Cole Field House was completed as university officials unveiled its new indoor football practice fields. The $155 million facility, which will also feature a pair of outdoor football fields, is scheduled to open in 2019.",
       "link": "http://www.dbknews.com/2017/08/02/cole-field-house-umd-dedication-renovation-practice-facility/",
-      "img": "assets/img/articles/54_img_Article01_Aug17.jpg"
+      "img": "background-image: url(assets/img/articles/54_img_Article01_Aug17.jpg);"
     }
   ]
 

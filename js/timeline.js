@@ -66,7 +66,6 @@ $(document).ready(function() {
       ];
 
       //scroll to top button
-
       function scrollToTop() {
         if ($(this).scrollTop() > 300) {
           $('#top').fadeIn();
@@ -87,25 +86,9 @@ $(document).ready(function() {
         return false;
       });
 
-      //header + nav
-      //function header() {
-      //  if ($(window).scrollTop < 100) {
-      //    //$( "header" ).css('background-color', 'transparent');
-      //    $( "header > .wrapper" ).css('padding', '2.5em 0');
-      //  } else {
-      //    //$( "header" ).css('background-color', '#b62424');
-      //    $( "header > .wrapper" ).css('padding', '1.5em 0');
-      //  }
-      //}
-      $(window).scroll(function() {
-        //header();
-      });
-
       function searchBtn() {
-        //$( "header" ).css('background-color', '#b62424');
-        //$( "header > .wrapper" ).css('padding', '2.5em 0');
         $('#search').fadeIn("100ms");
-        $('#close-btn').fadeIn("125ms");
+        $('.menu-btns').css('display', 'flex');
       }
       $('#search-btn').click(function() {
         searchBtn();
@@ -120,10 +103,9 @@ $(document).ready(function() {
       });
 
       function closeMenu() {
-        //header();
         $('header > .wrapper > main').fadeOut("150ms");
         $('#search').fadeOut("125ms");
-        $('#close-btn').fadeOut("100ms");
+        $('.menu-btns').fadeOut("100ms");
       }
       $('#close-btn').click(function() {
         closeMenu();
@@ -146,4 +128,57 @@ $(document).ready(function() {
 
       $('.btn-all').click(function(event){$("#top").trigger("click");  $("#filter-display").text(function(){return "";}); closeMenu();});
       $('.cat-link').click(function(event){$("#top").trigger("click"); $("#filter-display").text(function(){return "Filter: "+(event.currentTarget.innerText);}); closeMenu();});
+  
+  
+    //article hovers
+    function turnOffArticleHovers() {
+      $('#hovertoggle').text('turn on article hovers');
+      $('.article-block > .text').css('visibility', 'visible');
+      $('article').hover(
+        function () {
+          $(this).find('.article-block > .text').css('visibility', 'visible');
+        },
+        function () {
+          $(this).find('.article-block > .text').css('visibility', 'visible');
+        }
+      );
+    }
+    function turnOnArticleHovers() {
+      $('#hovertoggle').text('turn off article hovers');
+      $('.article-block > .text').css('visibility', 'hidden');
+      $('article').hover(
+        function () {
+          $(this).find('.article-block > .text').css('visibility', 'visible');
+        },  
+        function () {
+          $(this).find('.article-block > .text').css('visibility', 'hidden');
+        }
+      );
+    }
+  
+  
+    $('#hovertoggle').click(function() {
+      if ($(this).text() === "turn off article hovers") {
+        turnOffArticleHovers();
+      } else {
+        turnOnArticleHovers();
+      }
+    });
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   });
