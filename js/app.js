@@ -7,9 +7,9 @@ review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
     var full_months = [];
     var search_data = [];
     var search_months = [];
-  loadData();
-    
-    
+    loadData();
+
+
 
 
   function loadData(){
@@ -31,7 +31,7 @@ review_app.controller("main-ctlr", ['$scope', '$http', function($scope, $http){
           console.log("Cannot read data from JSON file.")
     });
   }
-  
+
 $scope.filterCategory = function(category) {
     if(category == "all") {
         $scope.articles = full_data;
@@ -51,7 +51,7 @@ $scope.filterCategory = function(category) {
                     new_month_arr.push(curr);
                 }
             }
-            
+
             if(new_month_arr.length > 0) {
                 result[month_keys[i]] = new_month_arr;
                 new_months.push(month_keys[i])
@@ -76,36 +76,36 @@ $scope.search = function() {
         $scope.articles = search_data;
         $scope.months = search_months;
     } else {
-        result = {}
-        new_months = []
-        month_keys = Object.keys(search_data)
+        result = {};
+        new_months = [];
+        month_keys = Object.keys(search_data);
+        console.log(search_data);
         for(i = 0, len = month_keys.length; i < len; i++) {
             curr_month = search_data[month_keys[i]];
-            new_month_arr = []
+            new_month_arr = [];
             for(j = 0, month_len = curr_month.length; j < month_len; j++) {
                 curr = curr_month[j];
                 if(curr["headline"].toLowerCase().indexOf(term) >= 0 || curr["description"].toLowerCase().indexOf(term) >= 0) {
                     new_month_arr.push(curr);
                 }
             }
-            
+
             if(new_month_arr.length > 0) {
                 result[month_keys[i]] = new_month_arr;
-                new_months.push(month_keys[i])
+                new_months.push(month_keys[i]);
             }
         }
         $scope.articles = result;
         result_months = []
         for(k = 0, m_len = full_months.length; k < m_len; k++) {
             if(new_months.indexOf(full_months[k]["id"]) >= 0) {
-                console.log
-                result_months.push(full_months[k])
+                result_months.push(full_months[k]);
             }
         }
         $scope.months = result_months;
     }
 }
-  
+
 
 }]);
 

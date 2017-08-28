@@ -69,8 +69,10 @@ $(document).ready(function() {
       function scrollToTop() {
         if ($(this).scrollTop() > 300) {
           $('#top').fadeIn();
+          document.getElementById("intro_vid").pause();
         } else {
           $('#top').fadeOut();
+          document.getElementById("intro_vid").play();
         }
       }
       $(window).scroll(function() {
@@ -128,8 +130,8 @@ $(document).ready(function() {
 
       $('.btn-all').click(function(event){$("#top").trigger("click");  $("#filter-display").text(function(){return "";}); closeMenu();});
       $('.cat-link').click(function(event){$("#top").trigger("click"); $("#filter-display").text(function(){return "Filter: "+(event.currentTarget.innerText);}); closeMenu();});
-  
-  
+
+
     //article hovers
     function turnOffArticleHovers() {
       closeMenu();
@@ -153,14 +155,14 @@ $(document).ready(function() {
       $('article').hover(
         function () {
           $(this).find('.article-block > .text').css('visibility', 'visible');
-        },  
+        },
         function () {
           $(this).find('.article-block > .text').css('visibility', 'hidden');
         }
       );
     }
-  
-  
+
+
     $('#hovertoggle').click(function() {
       if ($(this).text() === "turn off article hovers") {
         turnOffArticleHovers();
@@ -168,21 +170,21 @@ $(document).ready(function() {
         turnOnArticleHovers();
       }
     });
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   });
