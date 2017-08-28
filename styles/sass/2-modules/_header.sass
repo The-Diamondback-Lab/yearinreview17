@@ -81,14 +81,14 @@ header
         div
           +transition(all, .2s, ease-in-out)
           margin: .25em 0 .75em 0
-            
+
           /* STACKING ISSUE */
-          @media all and (max-width: 400px)
-            //+flex-col
-            //align-items: flex-start
-            //justify-content: flex-start
-            //width: 100%
-            
+          @media all and (max-width: 500px)
+            +flex-col
+            align-items: flex-start
+            justify-content: flex-start
+            width: 100%
+
           a
             font-family: $font-second
             text-transform: capitalize
@@ -115,7 +115,7 @@ header
         font-family: $font-second
         text-transform: capitalize
         margin: 0 0 0 .75em
-        
+
         @media all and (max-width: 400px)
           font-size: .95em
 
