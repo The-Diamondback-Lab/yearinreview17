@@ -82,10 +82,11 @@ footer .wrapper #addthis div div a { margin-bottom: 0; }
 /* SPLASH.SASS - SPLASH SECTION STYLES */
 #splash { height: 100vh; width: 100vw; }
 #splash .wrapper { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; width: 100vw; top: 0%; left: 0%; overflow: hidden; }
-#splash .wrapper .overlay { position: absolute; z-index: 1; width: 100%; height: 100%; background-color: rgba(40, 34, 34, 0.7); }
-#splash .wrapper video { position: absolute; z-index: 0; min-height: 100%; min-width: 100%; }
+#splash .wrapper .vid-container { position: absolute; height: 100%; width: 100%; overflow: hidden; }
+#splash .wrapper .vid-container .overlay { position: absolute; z-index: 1; width: 100%; height: 100%; background-color: rgba(40, 34, 34, 0.7); }
+#splash .wrapper .vid-container video { position: absolute; z-index: 0; min-height: 100%; min-width: 100%; }
 #splash .wrapper .text { z-index: 2; }
-#splash .wrapper .text h1 { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; display: flex; flex-direction: column; align-items: center; justify-content: space-between; margin: 3em 0 0 0; text-transform: uppercase; text-align: center; font-size: 4em; color: #b62424; }
+#splash .wrapper .text h1 { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; display: flex; flex-direction: column; align-items: center; justify-content: space-between; margin: 3em 0 0 0; text-transform: uppercase; text-align: center; font-size: 3.9em; color: #b62424; }
 #splash .wrapper .text .scroll-animation { display: flex; flex-direction: row; align-items: center; justify-content: center; margin: 10em 0 0 0; }
 #splash .wrapper .text .scroll-animation span, #splash .wrapper .text .scroll-animation i { margin: 0 0.125em; color: rgba(255, 255, 255, 0.3); }
 #splash .wrapper .text .scroll-animation span { text-transform: uppercase; }
