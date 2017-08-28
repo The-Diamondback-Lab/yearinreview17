@@ -13,43 +13,43 @@ header
     align-items: flex-start
     justify-content: center
     padding: 1.5em 0
-    
+
     .icons
       +flex-row
       align-items: center
       justify-content: space-between
       width: 100%
-      
+
       div
         +flex-row
         align-items: flex-end
         justify-content: center
-        
+
       .menu
         flex-direction: row-reverse
-        
+
       p, i
         color: rgba($white, .2)
         margin: 0 .25em
-          
+
       p
         font-family: $font-second
         margin: 0 .25em 0 0
         font-size: 1.1em
         text-transform: capitalize
-        
+
       #search-term
         margin-left: .375em
-        
+
       #hover-display
         margin-top: .25em
-                
+
       i
         font-size: 1.5em
-        
+
         &:hover
           cursor: pointer
-        
+
     #search
       display: none
       background-color: transparent
@@ -58,18 +58,18 @@ header
       margin: 1em 0
       width: 100%
       outline: none
-       
+
       &[type="text"], &::placeholder
         font-family: $font-second
         color: $white
-        
+
       &::placeholder
         text-transform: uppercase
-    
+
     main
       display: none
       margin-bottom: 1em
-      
+
       nav
         p
           text-transform: uppercase
@@ -80,25 +80,25 @@ header
 
         div
           margin: .25em 0 .75em 0
-            
+
           @media all and (max-width: 400px)
             +flex-col
             align-items: flex-start
             justify-content: flex-start
-            
+
           a
             font-family: $font-second
             text-transform: capitalize
             color: $gray
             margin: 0 .5em 0 0
-            
+
         #filterbycat
           a
             +transition(all, .2s, ease-in-out)
-              
+
             &:hover
               font-weight: 400
-            
+
             &.clicked
               font-weight: 700
     .menu-btns
@@ -106,13 +106,11 @@ header
       align-items: flex-end
       justify-content: flex-end
       width: 100%
-      
+
       #hovertoggle, #close-btn
         font-family: $font-second
         text-transform: capitalize
         margin: 0 0 0 .75em
-        
+
       #hovertoggle
         color: $white
-      
-          
