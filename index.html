@@ -39,11 +39,14 @@
    <header>
      <div class="wrapper">
        <div class="icons">
-          <!-- <p id="hover-display">Article Hover: On</p> -->
-        <p id ="filter-display"></p>
-        <i class="fa fa-bars" id="bars"></i>
-        <p id ="search-term"><span ng-if="term.length > 0">Search: </span><span ng-bind="term"></span></p>
-        <i class="fa fa-search" id="search-btn"></i>
+          <div class="menu">
+            <p id ="filter-display"></p>
+            <i class="fa fa-bars" id="bars"></i>
+          </div>
+          <div class="search">
+            <p id ="search-term"><span ng-if="term.length > 0">Search: </span><span ng-bind="term"></span></p>
+            <i class="fa fa-search" id="search-btn"></i>
+          </div>
        </div>
 
 
