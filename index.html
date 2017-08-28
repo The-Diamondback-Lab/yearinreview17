@@ -111,14 +111,18 @@
 
     <!--splash section-->
     <section id="splash">
+
+      <div id = "vidContainer" style = "position: absolute; height:100%; width:100%; overflow:hidden">
+         <div id = "overlay" style = "height:100%; width:100%; background-color: #000000; opacity: 0.7; position: absolute">
+         </div>
+         <video id = "intro_vid" style = "min-width:100%; min-height:100%" autoplay loop muted>
+           <source src="assets/videos/intro.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+         </video>
+       </div>
+
         <div class="wrapper">
-            
-            <div class="overlay"></div>
-            
-            <video autoplay loop muted poster="assets/img/img-splash.png">
-              <source src="assets/videos/intro.mp4">
-            </video>
-            
+
             <div class="text">
               <h1>a year in review</h1>
 
