@@ -2,9 +2,6 @@
 <html ng-app="review-app">
 
 <head>
-
-    <link rel="shortcut icon" href="http://www.dbknews.com/pb/resources/favicon.ico" type="image/x-icon">
-
     <!--meta tags-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -112,25 +109,22 @@
 
     <!--splash section-->
     <section id="splash">
-      <div id = "vidContainer" style = "position: absolute; height:100%; width:100%; overflow:hidden">
-        <div id = "overlay" style = "height:100%; width:100%; background-color: #000000; opacity: 0.7; position: absolute">
-        </div>
-        <video id = "intro_vid" style = "min-width:100%; min-height:100%" autoplay loop muted>
-          <source src="assets/videos/intro.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-        </video>
-      </div>
-        <div class="wrapper" style = "position:absolute; top:0; left:15%">
-            <h1>
-              <p id="dbk">the diamondback's</p>
-              <p id="years"><span>2016</span><span>2017</span></p>
-              <p id="review">year in review</p>
-            </h1>
-            <p class="scroll-animation">
-                <span>scroll</span>
-                <i class="fa fa-angle-double-down animated infinite pulse" id="doubledown"></i>
-                <span>down</span>
-            </p>
+        <div class="wrapper">
+            
+            <video autoplay loop muted poster="assets/img/img-splash.png">
+              <source src="assets/vid/vid-splash.mp4">
+            </video>
+            
+            <div class="text">
+              <h1>a year in review</h1>
+
+              <p class="scroll-animation">
+                  <span>scroll</span>
+                  <i class="fa fa-angle-double-down animated infinite pulse" id="doubledown"></i>
+                  <span>down</span>
+              </p>
+            </div>
+
         </div>
     </section>
 

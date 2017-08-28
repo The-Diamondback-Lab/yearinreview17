@@ -163,14 +163,27 @@ $(document).ready(function() {
     }
 
 
-    $('#hovertoggle').click(function() {
+   $('#hovertoggle').click(function() {
       if ($(this).text() === "turn off article hovers") {
         turnOffArticleHovers();
       } else {
         turnOnArticleHovers();
       }
     });
-
+  
+    function hoverSize() {
+      if ($(window).width() <= 500) {
+        turnOffArticleHovers();
+      }
+    }
+    $(window).on('load', function() {
+      hoverSize();
+    });
+    $(window).on('resize', function() {
+      hoverSize();
+    });
+    hoverSize();
+  
 
 
 
