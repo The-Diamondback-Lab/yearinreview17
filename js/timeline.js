@@ -69,8 +69,10 @@ $(document).ready(function() {
       function scrollToTop() {
         if ($(this).scrollTop() > 300) {
           $('#top').fadeIn();
+          document.getElementsByTagName('video')[0].pause();
         } else {
           $('#top').fadeOut();
+          document.getElementsByTagName('video')[0].play();
         }
       }
       $(window).scroll(function() {
@@ -168,7 +170,7 @@ $(document).ready(function() {
         turnOnArticleHovers();
       }
     });
-  
+
     function hoverSize() {
       if ($(window).width() <= 500) {
         turnOffArticleHovers();
@@ -181,7 +183,7 @@ $(document).ready(function() {
       hoverSize();
     });
     hoverSize();
-  
+
 
 
 
