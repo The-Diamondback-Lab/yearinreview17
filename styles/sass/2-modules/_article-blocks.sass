@@ -1,7 +1,7 @@
 /* ARTICLE BLOCKS - ARTICLE BLOCKS.SASS */
-  
+
 .article-block
-  +transition(all, .375s, ease-in-out)
+  transition: all .2s ease-in
   +bkg2(center, center)
   //border-radius: .5em
   display: inline-block
@@ -10,31 +10,32 @@
   height: 450px
   box-sizing: border-box
   //padding: 1.25em 1em
-  
+
   &:hover
     .text
-      visibility: visible
-  
+      opacity: 1
+
   &.is-emph
     animation-name: tada
     animation-duration: 1s
     animation-fill-mode: both
     z-index: 1
-  
+
   .text
     +flex-col
     align-items: flex-start
     justify-content: center
     //border-radius: .5em
     background-color: rgba($black, .65)
+    transition: .2s
     padding: 1.25em 1em
     margin: 0 0 1em 0
     height: 100%
-    visibility: hidden
-    
+    opacity: 0
+
     .headline, .blurb
       color: $white
-      
+
     .headline
       text-transform: capitalize
       margin: 0

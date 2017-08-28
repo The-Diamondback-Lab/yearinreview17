@@ -94,6 +94,10 @@ header
             text-transform: capitalize
             color: $gray
             margin: 0 .5em 0 0
+            border-bottom: 2px solid transparent
+
+            &:hover
+              border-bottom: 2px solid $white
 
         #filterbycat
           a
@@ -113,11 +117,13 @@ header
 
       #hovertoggle, #close-btn
         font-family: $font-second
-        text-transform: capitalize
+        text-transform: uppercase
         margin: 0 0 0 .75em
+        color: $white
+        border-bottom: 2px solid transparent
+
+        &:hover
+          border-bottom: 2px solid $white
 
         @media all and (max-width: 400px)
           font-size: .95em
-
-      #hovertoggle
-        color: $white

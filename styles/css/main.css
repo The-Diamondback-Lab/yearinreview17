@@ -29,14 +29,10 @@ p, a {
   font-family: "Lora", serif; }
 
 a {
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  transition: all ease-in-out 0.2s;
   text-decoration: none; }
   a:hover {
-    font-weight: 700;
+    border-bottom: 2px solid #fff;
     cursor: pointer; }
 
 /* BUTTONS.SASS - BUTTON STYLES */
@@ -146,7 +142,10 @@ header {
           font-family: "Lora", serif;
           text-transform: capitalize;
           color: #d9d9d9;
-          margin: 0 0.5em 0 0; }
+          margin: 0 0.5em 0 0;
+          border-bottom: 2px solid transparent; }
+          header .wrapper main nav div a:hover {
+            border-bottom: 2px solid #fff; }
       header .wrapper main nav #filterbycat a {
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
@@ -165,21 +164,19 @@ header {
       width: 100%; }
       header .wrapper .menu-btns #hovertoggle, header .wrapper .menu-btns #close-btn {
         font-family: "Lora", serif;
-        text-transform: capitalize;
-        margin: 0 0 0 0.75em; }
+        text-transform: uppercase;
+        margin: 0 0 0 0.75em;
+        color: #fff;
+        border-bottom: 2px solid transparent; }
+        header .wrapper .menu-btns #hovertoggle:hover, header .wrapper .menu-btns #close-btn:hover {
+          border-bottom: 2px solid #fff; }
         @media all and (max-width: 400px) {
           header .wrapper .menu-btns #hovertoggle, header .wrapper .menu-btns #close-btn {
             font-size: 0.95em; } }
-      header .wrapper .menu-btns #hovertoggle {
-        color: #fff; }
 
 /* ARTICLE BLOCKS - ARTICLE BLOCKS.SASS */
 .article-block {
-  -webkit-transition: all 0.375s ease-in-out;
-  -moz-transition: all 0.375s ease-in-out;
-  -ms-transition: all 0.375s ease-in-out;
-  -o-transition: all 0.375s ease-in-out;
-  transition: all 0.375s ease-in-out;
+  transition: all 0.2s ease-in;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -189,7 +186,7 @@ header {
   height: 450px;
   box-sizing: border-box; }
   .article-block:hover .text {
-    visibility: visible; }
+    opacity: 1; }
   .article-block.is-emph {
     animation-name: tada;
     animation-duration: 1s;
@@ -201,10 +198,11 @@ header {
     align-items: flex-start;
     justify-content: center;
     background-color: rgba(40, 34, 34, 0.65);
+    transition: 0.2s;
     padding: 1.25em 1em;
     margin: 0 0 1em 0;
     height: 100%;
-    visibility: hidden; }
+    opacity: 0; }
     .article-block .text .headline, .article-block .text .blurb {
       color: #fff; }
     .article-block .text .headline {

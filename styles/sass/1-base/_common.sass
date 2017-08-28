@@ -14,21 +14,21 @@ html
 
 body
   color: $black
-  
+
 .wrapper
   width: 2480px
   max-width: 70%
   margin: 0 auto
-  
+
 h1, h2, h3, h4, h5, h6
   font-family: $font-main
-  
+
 p, a
   font-family: $font-second
-  
+
 a
-  +transition(all, .2s, ease-in-out)
+  transition: all ease-in-out 0.2s
   text-decoration: none
   &:hover
-    font-weight: 700
+    border-bottom: 2px solid $white
     cursor: pointer
