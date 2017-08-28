@@ -69,10 +69,8 @@ $(document).ready(function() {
       function scrollToTop() {
         if ($(this).scrollTop() > 300) {
           $('#top').fadeIn();
-          document.getElementById("intro_vid").pause();
         } else {
           $('#top').fadeOut();
-          document.getElementById("intro_vid").play();
         }
       }
       $(window).scroll(function() {
