@@ -154,10 +154,10 @@ $(document).ready(function() {
       $('.article-block > .text').css('visibility', 'hidden');
       $('article').hover(
         function () {
-          $(this).find('.article-block > .text').css('visibility', 'visible');
+          $(this).find('.article-block > .text').css('opacity', '1');
         },
         function () {
-          $(this).find('.article-block > .text').css('visibility', 'hidden');
+          $(this).find('.article-block > .text').css('opacity', '0');
         }
       );
     }
