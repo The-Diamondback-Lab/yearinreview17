@@ -44,10 +44,15 @@ header .wrapper .icons i:hover { cursor: pointer; }
 header .wrapper #search { display: none; background-color: transparent; border: 5px solid #333333; padding: 0.75em 1.5em; margin: 1em 0; width: 100%; outline: none; }
 header .wrapper #search[type="text"], header .wrapper #search::placeholder { font-family: "Lora", serif; color: #fff; }
 header .wrapper #search::placeholder { text-transform: uppercase; }
-header .wrapper main { display: none; margin-bottom: 1em; }
+header .wrapper main { display: none; margin-bottom: 1em; width: 100%; }
+header .wrapper main nav { overflow: auto; }
 header .wrapper main nav p { text-transform: uppercase; color: #fff; margin: 0; font-size: 1.1em; font-weight: 700; }
-header .wrapper main nav div { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; margin: 0.25em 0 0.75em 0; /* STACKING ISSUE */ }
-header .wrapper main nav div a { font-family: "Lora", serif; text-transform: capitalize; color: #d9d9d9; margin: 0 0.5em 0 0; border-bottom: 2px solid transparent; }
+@media all and (max-width: 500px) { header .wrapper main nav p { position: fixed; } }
+header .wrapper main nav p i { display: none; }
+@media all and (max-width: 500px) { header .wrapper main nav p i { display: inline-block; } }
+header .wrapper main nav div { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; margin: 0.25em 0 0.75em; /* STACKING ISSUE */ }
+@media all and (max-width: 500px) { header .wrapper main nav div { display: flex; flex-direction: row; align-items: center; margin: 1.5em 0 0.75em; } }
+header .wrapper main nav div a { font-family: "Lora", serif; text-transform: capitalize; color: #d9d9d9; margin: 0 0.5em 0 0; border-bottom: 2px solid transparent; white-space: nowrap; }
 header .wrapper main nav div a:hover { border-bottom: 2px solid #fff; }
 header .wrapper main nav #filterbycat a { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 header .wrapper main nav #filterbycat a:hover { font-weight: 400; }
