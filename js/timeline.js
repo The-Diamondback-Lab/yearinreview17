@@ -137,13 +137,13 @@ $(document).ready(function() {
       closeMenu();
       $('#hover-display').text('article hover: off');
       $('#hovertoggle').text('turn on article hovers');
-      $('.article-block > .text').css('visibility', 'visible');
+      $('.article-block > .text').css('opacity', '1');
       $('article').hover(
         function () {
-          $(this).find('.article-block > .text').css('visibility', 'visible');
+          $(this).find('.article-block > .text').css('opacity', '1');
         },
         function () {
-          $(this).find('.article-block > .text').css('visibility', 'visible');
+          $(this).find('.article-block > .text').css('opacity', '1');
         }
       );
     }
@@ -172,7 +172,7 @@ $(document).ready(function() {
     });
 
     function hoverSize() {
-      if ($(window).width() <= 500) {
+      if ($(window).width() <= 750) {
         turnOffArticleHovers();
       }
     }
