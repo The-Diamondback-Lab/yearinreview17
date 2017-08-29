@@ -192,26 +192,16 @@ $(document).ready(function() {
     }
     $(window).on('load', function() {
       hoverSize();
+      preloaderFadeOutTime = 500;
+      function hidePreloader() {
+          var preloader = $('.spinner-wrapper');
+          preloader.fadeOut(preloaderFadeOutTime);
+      }
+      hidePreloader();
     });
     $(window).on('resize', function() {
       hoverSize();
     });
     hoverSize();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   });

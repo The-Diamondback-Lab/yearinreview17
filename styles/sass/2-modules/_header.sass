@@ -40,6 +40,12 @@ header
 
       #search-term
         margin-left: .375em
+        margin-right: 1em
+        color: $white
+
+      #filter-display
+        margin-left: 1em
+        color: $white
 
       #hover-display
         margin-top: .25em
@@ -73,23 +79,23 @@ header
 
       nav
         overflow: auto
-        
+
         p
           text-transform: uppercase
           color: $white
           margin: 0
           font-size: 1.1em
           font-weight: 700
-          
+
           @media all and (max-width: 500px)
             position: fixed
-          
+
           i
             display: none
-            
+
             @media all and (max-width: 500px)
               display: inline-block
-            
+
 
         div
           +transition(all, .2s, ease-in-out)
