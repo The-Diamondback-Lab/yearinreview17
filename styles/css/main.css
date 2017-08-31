@@ -69,7 +69,7 @@ header .wrapper .menu-btns #hovertoggle:hover, header .wrapper .menu-btns #close
 .article-block { transition: all 0.2s ease-in; background-size: cover; background-repeat: no-repeat; background-position: center center; display: inline-block; margin: 0 0 1em; width: 100%; height: 450px; box-sizing: border-box; }
 .article-block:hover .text { opacity: 1; }
 .article-block.is-emph { animation-name: tada; animation-duration: 1s; animation-fill-mode: both; z-index: 1; }
-.article-block .text { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; background-color: rgba(40, 34, 34, 0.65); transition: 0.2s; padding: 1.25em 1em; margin: 0 0 1em 0; height: 100%; opacity: 0; }
+.article-block .text { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; background-color: rgba(40, 34, 34, 0.8); transition: 0.2s; padding: 1.25em 1em; margin: 0 0 1em 0; height: 100%; opacity: 0; }
 .article-block .text .headline, .article-block .text .blurb { color: #fff; }
 .article-block .text .headline { text-transform: capitalize; margin: 0; font-size: 1.1em; }
 .article-block .text .blurb { margin: 0.5em 0 0.75em 0; font-size: 0.87em; line-height: 1.25em; font-weight: 400 !important; }
