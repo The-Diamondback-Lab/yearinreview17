@@ -30,14 +30,15 @@ a:hover { border-bottom: 2px solid #fff; cursor: pointer; }
 .btn-dark { background-color: #333333; color: #fff; }
 
 /* HEADER STYLES - HEADER.SASS */
-header { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; position: fixed; top: 0; width: 100%; z-index: 10; background-color: #b62424; }
+header { -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; transition: top 0.2s ease-in-out; position: fixed; top: 0; width: 100%; z-index: 10; background-color: #b62424; }
 header .wrapper { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 1.5em 0; }
 header .wrapper .icons { display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 100%; }
 header .wrapper .icons div { display: flex; flex-direction: row; align-items: flex-end; justify-content: center; }
 header .wrapper .icons .menu { flex-direction: row-reverse; }
 header .wrapper .icons p, header .wrapper .icons i { color: rgba(255, 255, 255, 0.2); margin: 0 0.25em; }
 header .wrapper .icons p { font-family: "Lora", serif; margin: 0 0.25em 0 0; font-size: 1.1em; text-transform: capitalize; }
-header .wrapper .icons #search-term { margin-left: 0.375em; }
+header .wrapper .icons #search-term { margin-left: 0.375em; margin-right: 1em; color: #fff; }
+header .wrapper .icons #filter-display { margin-left: 1em; color: #fff; }
 header .wrapper .icons #hover-display { margin-top: 0.25em; }
 header .wrapper .icons i { font-size: 1.5em; }
 header .wrapper .icons i:hover { cursor: pointer; }
@@ -62,11 +63,13 @@ header .wrapper .menu-btns #hovertoggle, header .wrapper .menu-btns #close-btn {
 header .wrapper .menu-btns #hovertoggle:hover, header .wrapper .menu-btns #close-btn:hover { border-bottom: 2px solid #fff; }
 @media all and (max-width: 400px) { header .wrapper .menu-btns #hovertoggle, header .wrapper .menu-btns #close-btn { font-size: 0.95em; } }
 
+.nav-up { top: -10%; }
+
 /* ARTICLE BLOCKS - ARTICLE BLOCKS.SASS */
 .article-block { transition: all 0.2s ease-in; background-size: cover; background-repeat: no-repeat; background-position: center center; display: inline-block; margin: 0 0 1em; width: 100%; height: 450px; box-sizing: border-box; }
 .article-block:hover .text { opacity: 1; }
 .article-block.is-emph { animation-name: tada; animation-duration: 1s; animation-fill-mode: both; z-index: 1; }
-.article-block .text { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; background-color: rgba(40, 34, 34, 0.8); transition: 0.2s; padding: 1.25em 1em; margin: 0 0 1em 0; height: 100%; opacity: 0; }
+.article-block .text { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; background-color: rgba(40, 34, 34, 0.65); transition: 0.2s; padding: 1.25em 1em; margin: 0 0 1em 0; height: 100%; opacity: 0; }
 .article-block .text .headline, .article-block .text .blurb { color: #fff; }
 .article-block .text .headline { text-transform: capitalize; margin: 0; font-size: 1.1em; }
 .article-block .text .blurb { margin: 0.5em 0 0.75em 0; font-size: 0.87em; line-height: 1.25em; font-weight: 400 !important; }
