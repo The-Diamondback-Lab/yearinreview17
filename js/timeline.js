@@ -188,6 +188,8 @@ $(document).ready(function() {
             $(this).find('.article-block > .text').css('opacity', '1');
           }
         );
+      } else {
+        turnOnArticleHovers();
       }
     }
     $(window).on('load', function() {
